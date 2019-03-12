@@ -4,6 +4,7 @@ navbar:
   title: "WeiquanLuo's Webpage"
   left:
     - text: "Home"
+      icon: fa-home
       href: index.html
     - text: "Study Note"
       menu:
@@ -19,10 +20,12 @@ navbar:
           href: Note-rmarkdown_site_generator.html
         - text: "tibble"
           href: Note-tibble.html
-    - text: "About"
+    - text: "About me"
+      icon: fa-info
       href: about.html
   right:
     - text: "Repo"
+      icon: fa-gear
       href: https://github.com/WeiquanLuo/WeiquanLuo.github.io
 output:
   html_document:
