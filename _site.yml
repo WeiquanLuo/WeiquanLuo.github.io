@@ -1,0 +1,31 @@
+name: "my-website"
+output_dir: "."
+navbar:
+  title: "WeiquanLuo's Webpage"
+  left:
+    - text: "Home"
+      href: index.html
+    - text: "Data type"
+      href: Note-Data_type.html
+    - text: "dplyr"
+      href: Note-dplyr.html
+    - text: "ggplot2"
+      href: Note-ggplot2.html
+    - text: "plyr"
+      href: Note-plyr.html
+    - text: "rmarkdown"
+      href: Note-rmarkdown_site_generator.html
+    - text: "tibble"
+      href: Note-tibble.html
+    - text: "About"
+      href: about.html
+  right:
+    - text: "Repo"
+      href: https://github.com/WeiquanLuo/WeiquanLuo.github.io
+output:
+  html_document:
+    theme: cosmo
+    highlight: textmate
+    include:
+      after_body: footer.html
+    css: styles.css

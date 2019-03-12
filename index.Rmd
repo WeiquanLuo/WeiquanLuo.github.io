@@ -1,0 +1,18 @@
+---
+title: "My Website"
+---
+      
+Hello!
+
+This is my personal webpage for my completed study note for R
+
+* [Note-Git Github](https://github.com/WeiquanLuo/Note-Git_Github)
+
+
+I am interest in:
+
+* R Book:
+[Efficient R programming](https://csgillespie.github.io/efficientR/)
+
+*  R Package:
+[The caret Package](http://topepo.github.io/caret/index.html)
