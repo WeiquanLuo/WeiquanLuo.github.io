@@ -7,6 +7,7 @@ navbar:
       icon: fa-home
       href: index.html
     - text: "Study Note"
+      icon: fa-book
       menu:
         - text: "Data type"
           href: Note-Data_type.html
@@ -25,7 +26,7 @@ navbar:
       href: about.html
   right:
     - text: "Repo"
-      icon: fa-gear
+      icon: fa-github
       href: https://github.com/WeiquanLuo/WeiquanLuo.github.io
 output:
   html_document:
