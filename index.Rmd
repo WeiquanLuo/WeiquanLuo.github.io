@@ -1,18 +1,8 @@
 ---
-title: "My Website"
+title: "Weiquan Luo"
 ---
-      
-Hello!
 
-This is my personal webpage for my completed study note for R
+<center>
+I am a graduate student at Iowa State University, pursuing an MS in Agriculture Biosystem Engineering. I am currently working with Amy Kaleita-forbes on research in FEW analysis using Bayesian networks. I am also interested in empirical analysis to engineering problem. Contact me at weiquanl@iastate.edu or find my latest projects on GitHub.
+</center>
 
-* [Note-Git Github](https://github.com/WeiquanLuo/Note-Git_Github)
-
-
-I am interest in:
-
-* R Book:
-[Efficient R programming](https://csgillespie.github.io/efficientR/)
-
-*  R Package:
-[The caret Package](http://topepo.github.io/caret/index.html)
