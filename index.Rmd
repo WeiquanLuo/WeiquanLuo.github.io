@@ -13,7 +13,7 @@ h1.title {
 </style>
 
 <center>
-I am a graduate student at [Iowa State University](https://www.abe.iastate.edu), pursuing an MS in Agriculture Biosystem Engineering. I am currently working with [Amy Kaleita-forbes](kaleita@iastate.edu) on research in FEW analysis using Bayesian networks. I am also interested in empirical analysis to engineering problem. Contact me at weiquanl@iastate.edu or find my latest projects on GitHub.
+I am a graduate student at [Iowa State University](https://www.abe.iastate.edu), pursuing an MS in Agriculture Biosystem Engineering. I am currently working with [Dr. Amy Kaleita-forbes](kaleita@iastate.edu) on research in FEW analysis using Bayesian networks. I am also interested in empirical analysis to engineering problem. Contact me at weiquanl@iastate.edu or find my latest projects on GitHub.
 </center>
 
 
