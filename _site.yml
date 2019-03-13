@@ -21,7 +21,7 @@ navbar:
           href: Note-rmarkdown_site_generator.html
         - text: "tibble"
           href: Note-tibble.html
-        - text: ""
+        - text: "Git_Github"
           href: https://github.com/WeiquanLuo/Note-Git_Github
     - text: "About me"
       icon: fa-info
