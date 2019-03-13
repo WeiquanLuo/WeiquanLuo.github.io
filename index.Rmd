@@ -2,6 +2,16 @@
 title: "Weiquan Luo"
 ---
 
+<style type="text/css">
+
+h1.title {
+  font-size: 38px;
+  color: DarkRed;
+  text-align: center;
+}
+
+</style>
+
 <center>
 I am a graduate student at Iowa State University, pursuing an MS in Agriculture Biosystem Engineering. I am currently working with Amy Kaleita-forbes on research in FEW analysis using Bayesian networks. I am also interested in empirical analysis to engineering problem. Contact me at weiquanl@iastate.edu or find my latest projects on GitHub.
 </center>
