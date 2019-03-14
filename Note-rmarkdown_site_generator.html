@@ -396,14 +396,17 @@ source(&quot;utils.R&quot;)</code></pre>
 <div id="local-image" class="section level2">
 <h2>3.1 Local Image</h2>
 <p>Add a R chunk to run the following to insert a local image.</p>
-<pre class="html"><code>\```{r pressure, echo=FALSE, fig.cap=&quot;A caption&quot;, out.width = '100%'}
+<pre class="html"><code>\```{r, echo=FALSE, fig.cap=&quot;A caption&quot;, out.width = '100%'}
 \knitr::include_graphics(&quot;temp.png&quot;)
 \```</code></pre>
 </div>
 <div id="online-image" class="section level2">
 <h2>3.1 Online Image</h2>
 <p>Or using a online image by doing the following.</p>
-<pre class="html"><code>![Caption for the picture.](/path/to/image.png)</code></pre>
+<pre class="html"><code>&lt;center&gt;
+![A caption](https://www.95visual.com/sites/default/files/images/inline/file_format_chart.png){
+width=20% }
+&lt;/center&gt;</code></pre>
 </div>
 </div>
 

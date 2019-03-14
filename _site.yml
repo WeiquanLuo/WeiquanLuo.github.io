@@ -13,14 +13,16 @@ navbar:
           href: Note-Data_type.html
         - text: "dplyr"
           href: Note-dplyr.html
-        - text: "ggplot2"
-          href: Note-ggplot2.html
         - text: "plyr"
           href: Note-plyr.html
-        - text: "rmarkdown"
-          href: Note-rmarkdown_site_generator.html
         - text: "tibble"
           href: Note-tibble.html
+        - text: "ggplot2"
+          href: Note-ggplot2.html
+        - text: "magick"
+          href: Note-magick.html
+        - text: "rmarkdown"
+          href: Note-rmarkdown_site_generator.html
         - text: "Git_Github"
           href: https://github.com/WeiquanLuo/Note-Git_Github
     - text: "About me"
