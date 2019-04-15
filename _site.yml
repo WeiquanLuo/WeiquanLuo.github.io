@@ -21,6 +21,8 @@ navbar:
           href: Note-ggplot2.html
         - text: "magick"
           href: Note-magick.html
+        - text: "Regular Expression"
+          href: Note-Regular_Expression.html
         - text: "Rpackages"
           href: Note_Rpackages.html
         - text: "rmarkdown"
