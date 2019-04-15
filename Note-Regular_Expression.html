@@ -266,22 +266,60 @@ library(stringr)</code></pre>
 </div>
 <div id="common-functions" class="section level2">
 <h2>1.2 Common Functions</h2>
-<ul>
-<li>Detect Match</li>
-<li>subset strings</li>
-<li>Manage lenght</li>
-<li>Multate strings</li>
-<li>Join and Split</li>
-<li>Order string</li>
-</ul>
+<table style="width:96%;">
+<colgroup>
+<col width="47%"></col>
+<col width="33%"></col>
+<col width="15%"></col>
+</colgroup>
+<thead>
+<tr class="header">
+<th>Functions</th>
+<th><span class="math inline">\(base\)</span></th>
+<th><span class="math inline">\(stringr\)</span></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Detect, identify</td>
+<td><code>grep(..., value = FALSE)</code></td>
+<td><code>stringr::str_detect()</code>, <code>stringr::str_which()</code>, <code>stringr::str_count()</code></td>
+</tr>
+<tr class="even">
+<td>Locate</td>
+<td><code>regexpr()</code>, <code>gregexpr()</code></td>
+<td><code>stringr::str_locate()</code>, <code>string::str_locate_all()</code></td>
+</tr>
+<tr class="odd">
+<td>subset</td>
+<td><code>grep(..., value = TRUE)</code></td>
+<td><code>stringr::str_sub()</code>, <code>stringr::str_subset()</code>, <code>stringr::str_extract()</code>, <code>stringr::str_extract_all()</code>, <code>stringr::str_match()</code></td>
+</tr>
+<tr class="even">
+<td>Multate, replace</td>
+<td><code>gsub()</code></td>
+<td><code>stringr::str_sub()</code>,<code>stringr::str_replace()</code>, <code>stringr::str_replace_all()</code>, <code>stringr::str_to_lower()</code>,<code>stringr::str_to_upper()</code>,<code>stringr::str_to_title()</code></td>
+</tr>
+<tr class="odd">
+<td>Join and Split</td>
+<td><code>strsplit()</code></td>
+<td><code>stringr::str_c()</code>, <code>stringr::str_dup()</code>,<code>stringr::str_split_fixed()</code>, <code>stringr::str_split()</code>,<code>stringr::str_glue()</code>,<code>stringr::str_blue_data()</code></td>
+</tr>
+<tr class="even">
+<td>Order</td>
+<td>-</td>
+<td><code>stringr::str_order()</code>,<code>stringr::str_sort()</code></td>
+</tr>
+</tbody>
+</table>
 </div>
 <div id="key-construction" class="section level2">
 <h2>1.3 Key Construction</h2>
 <p>A key is a string, which is constructed by regular expressions under certain Syntax standards to match specifict pattern.</p>
 <p>Example key using POSIX standard in R:</p>
 <ul>
-<li>phone number <code>&quot;\D?\d{3}\D?\d{3}\D?\d{4}&quot;</code></li>
-<li>email: <code>&quot;\\w{1,}@\\w{1,}\\.[A-z]{1,}&quot;</code></li>
+<li>phone number <code>&quot;\D?\d{3}\D?\d{3}\D?\d{4}&quot;</code> for <code>ddd_ddd_dddd</code></li>
+<li>email: <code>&quot;\\w{1,}@\\w{1,}\\.[A-z]{1,}&quot;</code> for <code>__@__.__</code></li>
 </ul>
 <p>The composition of a key:</p>
 <ul>
@@ -305,7 +343,11 @@ library(stringr)</code></pre>
 </div>
 <div id="regular-expression-syntax" class="section level1">
 <h1>2. Regular expression syntax</h1>
-<table>
+<table style="width:71%;">
+<colgroup>
+<col width="13%"></col>
+<col width="56%"></col>
+</colgroup>
 <thead>
 <tr class="header">
 <th>Category</th>
@@ -315,15 +357,15 @@ library(stringr)</code></pre>
 <tbody>
 <tr class="odd">
 <td>metacharacters</td>
-<td></td>
+<td>retain for information about repeats and location</td>
 </tr>
 <tr class="even">
 <td>Operators</td>
-<td></td>
+<td>define the matching operation</td>
 </tr>
 <tr class="odd">
 <td>Character classes</td>
-<td></td>
+<td>define the pattern type, often couple with Repetition operator, <code>[...]</code></td>
 </tr>
 <tr class="even">
 <td>Quantifiers</td>
@@ -331,27 +373,25 @@ library(stringr)</code></pre>
 </tr>
 <tr class="odd">
 <td>Position of pattern within the string</td>
-<td></td>
+<td>define where to operate the matchin in the string</td>
 </tr>
 <tr class="even">
 <td>Escape sequences</td>
-<td></td>
+<td>alternative for above syntax</td>
 </tr>
 </tbody>
 </table>
 <div id="metacharacters" class="section level2">
 <h2>2.1 Metacharacters</h2>
-<p>Regular expressions typically specify characters (or character classes) to seek out, possibly with information about repeats and location within the string. This is accomplished with the help of metacharacters that have specific meaning</p>
-<p><code>$ * + . ? [ ] ^ { } | ( ) \</code></p>
-<p><code>\</code> suppress the special meaning of metacharacters in regular expression, i.e. <code>$ * + . ? [ ] ^ { } | ( ) \</code>, similar to its usage in escape sequences. Normally, we would escape things using <code>\</code>, but in R, that is a special character too, so the <code>\</code> in <code>\?</code> also has to be escaped. i.e. <code>\\.</code> and <code>\\?</code> will recognize <code>.</code> and <code>?</code> respectively.</p>
+<p>Regular expressions typically specify characters (or character classes) to seek out, possibly with information about repeats and location within the string. This is accomplished with the help of metacharacters that have specific meaning. i.e. <code>$ * + . ? [ ] ^ { } | ( ) \</code>. Moreover, <code>\</code> suppress the special meaning of metacharacters in regular expression, similar to its usage in escape sequences. Normally, we would escape things using <code>\</code>, but in R, that is a special character too, so the <code>\</code> in <code>\?</code> also has to be escaped. i.e. <code>\\.</code> and <code>\\?</code> will recognize <code>.</code> and <code>?</code> respectively.</p>
 </div>
 <div id="operators" class="section level2">
 <h2>2.2 Operators</h2>
 <table style="width:92%;">
 <caption>Essential Operator</caption>
 <colgroup>
-<col width="13%"></col>
-<col width="77%"></col>
+<col width="29%"></col>
+<col width="62%"></col>
 </colgroup>
 <thead>
 <tr class="header">
@@ -361,15 +401,15 @@ library(stringr)</code></pre>
 </thead>
 <tbody>
 <tr class="odd">
-<td><code>[...]</code></td>
-<td>a character list, matches any one of the characters inside the square brackets. We can also use <code>-</code> inside the brackets to specify a range of characters.</td>
+<td><code>[...]</code>: Repetition operator</td>
+<td>a character list matches any one of the characters inside the square brackets. We can also use <code>-</code> inside the brackets to specify a range of characters.</td>
 </tr>
 <tr class="even">
-<td><code>|</code></td>
-<td>an “or” operator, matches patterns on either side of the <code>|</code>.</td>
+<td><code>|</code>: OR operator</td>
+<td>matches patterns on either side of the <code>|</code>.</td>
 </tr>
 <tr class="odd">
-<td><code>(...)</code></td>
+<td><code>(...)</code>: Capture operator</td>
 <td>grouping in regular expressions. This allows you to retrieve the bits that matched various parts of your regular expression so you can alter them or use them for building up a new string. Each group can than be refer using <code>\\N</code>, with N being the No. of <code>(...)</code> used. This is called backreference.</td>
 </tr>
 </tbody>
@@ -382,8 +422,8 @@ library(stringr)</code></pre>
 </ul>
 <table>
 <colgroup>
-<col width="13%"></col>
-<col width="86%"></col>
+<col width="20%"></col>
+<col width="79%"></col>
 </colgroup>
 <thead>
 <tr class="header">
