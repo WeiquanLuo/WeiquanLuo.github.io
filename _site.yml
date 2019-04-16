@@ -23,10 +23,12 @@ navbar:
           href: Note-magick.html
         - text: "Regular Expression"
           href: Note-Regular_Expression.html
-        - text: "Rpackages"
-          href: Note_Rpackages.html
         - text: "rmarkdown"
           href: Note-rmarkdown_site_generator.html
+        - text: "Shiny"
+          href: Note-Shiny.html
+        - text: "Rpackages"
+          href: Note_Rpackages.html
         - text: "Git_Github"
           href: https://github.com/WeiquanLuo/Note-Git_Github
     - text: "About me"
