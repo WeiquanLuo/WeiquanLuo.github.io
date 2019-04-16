@@ -243,7 +243,9 @@ The Architecture for a Shiny App
 <h1>2. Architecture</h1>
 <p>Shiny apps let users interact with data and analysis. And do it all with R. It also can be used to host standalone apps on a webpage or embed them in R Markdown documents or build dashboards. <span class="math inline">\(Shiny\)</span> is an R package that makes it easy to build interactive web apps straight from R. A shiny app template:</p>
 <ul>
-<li><code>fluidPage()</code>:</li>
+<li><code>ui &lt;- fluidPage</code>: Create a page with fluid layout containing the widget and the output object.</li>
+<li><code>server &lt;- function(input, output)</code>: A server function using reactive expressions to keep track of any input values.</li>
+<li><code>shinyApp(ui, server)</code>: render the shiny app object</li>
 </ul>
 <pre class="r"><code>library(shiny)
 ui &lt;- fluidPage(
