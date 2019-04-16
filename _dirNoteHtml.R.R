@@ -25,3 +25,5 @@ dirStartXxx <- function(xxx = "",d = 0, istart = NULL, nstart = NULL){
 files_copying <- dirStartXxx(xxx = "html", d =2, istart = "Note")
 file.copy(from = files_copying, to = getwd(), overwrite = TRUE)
 
+# render
+rmarkdown::render_site()
