@@ -11,7 +11,7 @@
 
 <meta name="author" content="Weiquan Luo" />
 
-<meta name="date" content="2019-04-24" />
+<meta name="date" content="2019-04-30" />
 
 <title>Note-shiny</title>
 
@@ -378,7 +378,7 @@ $(document).ready(function () {
 
 <h1 class="title toc-ignore">Note-shiny</h1>
 <h4 class="author"><em>Weiquan Luo</em></h4>
-<h4 class="date"><em>2019-04-24</em></h4>
+<h4 class="date"><em>2019-04-30</em></h4>
 
 </div>
 
@@ -388,6 +388,8 @@ $(document).ready(function () {
 <li><a href="#prerequisites">Prerequisites</a></li>
 <li><a href="#overview">1. Overview</a></li>
 <li><a href="#architecture">2. Architecture</a><ul>
+<li><a href="#a-simplified-shiny-app-template">2.1 A simplified shiny app template</a></li>
+<li><a href="#a-shiny-app-template-with-mulitple-tap-and">2.2 A shiny app template with mulitple tap and</a></li>
 <li><a href="#ui">2.1 UI</a><ul>
 <li><a href="#input-function">2.1.1 Input function</a></li>
 <li><a href="#output-function">2.1.1 Output function</a></li>
@@ -432,12 +434,14 @@ The Architecture for a Shiny App
 </div>
 <div id="architecture" class="section level1">
 <h1>2. Architecture</h1>
-<p>Shiny apps let users interact with data and analysis. And do it all with R. It also can be used to host standalone apps on a webpage or embed them in R Markdown documents or build dashboards. <span class="math inline">\(Shiny\)</span> is an R package that makes it easy to build interactive web apps straight from R. A shiny app template:</p>
+<p>Shiny apps let users interact with data and analysis. And do it all with R. It also can be used to host standalone apps on a webpage or embed them in R Markdown documents or build dashboards. <span class="math inline">\(Shiny\)</span> is an R package that makes it easy to build interactive web apps straight from R.</p>
 <ul>
 <li><code>ui &lt;- fluidPage()</code>: Create a page with fluid layout containing the widget and the output object.</li>
 <li><code>server &lt;- function(input, output){}</code>: A server function using reactive expressions to keep track of any input values.</li>
 <li><code>shinyApp(ui, server)</code>: render the shiny app object</li>
 </ul>
+<div id="a-simplified-shiny-app-template" class="section level2">
+<h2>2.1 A simplified shiny app template</h2>
 <pre class="r"><code>library(shiny)
 ui &lt;- fluidPage(
   # XXXInput(inputId_1) 
@@ -450,6 +454,69 @@ server &lt;- function(input, output) {
   })
 }
 shinyApp(ui, server)</code></pre>
+</div>
+<div id="a-shiny-app-template-with-mulitple-tap-and" class="section level2">
+<h2>2.2 A shiny app template with mulitple tap and</h2>
+<pre class="r"><code>library(shiny)
+# additional pkg
+
+# steady data
+
+ui &lt;- fluidPage(
+  navbarPage(&quot;ggfun&quot;,
+             # tap 1
+             tabPanel(&quot;inputId_1&quot;,
+                      sidebarLayout(
+                        sidebarPanel(
+                          h3(&quot;header&quot;),
+                          #XXXInput(inputId_1)  
+                        ),
+                        mainPanel(
+                          plotOutput(&quot;outputId_1&quot;), 
+                          height=&quot;auto&quot;
+                        )
+                      ))
+             # tap 2
+             tabPanel(&quot;inputId_2&quot;,
+                      sidebarLayout(
+                        sidebarPanel(
+                          h3(&quot;header&quot;),
+                          XXXInput(inputId_2) 
+                        ),
+                        mainPanel(
+                          plotOutput(&quot;outputId_2&quot;), 
+                          height=&quot;auto&quot;
+                        )
+                      ))
+
+               )
+)
+
+# Define server logic required to draw a histogram
+server &lt;- function(input, output,session) {
+  
+  output$outputId_1 &lt;- renderPlot({
+    # R code chunk for the object type XXX depended on some inputId
+    # Fun_1(input$inputId_1)
+  }, 
+  
+  height = function() {
+    session$clientData$outputId_1 * 2/3
+  })
+
+    output$outputId_2 &lt;- renderPlot({
+    # R code chunk for the object type XXX depended on some inputId
+    # Fun_2(input$inputId_2)
+  }, 
+  
+  height = function() {
+    session$clientData$outputId_2 * 2/3
+  })
+}
+
+# Run the application
+shinyApp(ui = ui, server = server)</code></pre>
+</div>
 <div id="ui" class="section level2">
 <h2>2.1 UI</h2>
 <p>Add elements to the shiny app as argument to:</p>
