@@ -13,39 +13,39 @@ title:  About Me
 
 # Work Experience
 * Research Assistant  
-  Supervior: Dr. Amy Leigh Kaleita\-Forbes & Dr. Adina Howe  
   Project: Interdisciplinary study of Water\-Energy\-Food Nexus with Bayesian network  
   Summer 2018 to now  
   Understand the dependency relationship between human and environment by developing a new framework with applying Bayesian network to the interdisciplinary space of food, energy, and water. Extracting data from an existing database, Web sources, and APIs. Designing, reviewing, implementing and optimizing data transformation processes. Accelerating the data integration process and empower the deployment of predictive analytics.
 
 * Teaching Assistant  
-  Supervior: Dr. Amy Leigh Kaleita\-Forbes  
   Course: Applied Numerical Methods  
   Fall 2016, 2017, 2018  
   Analytics for student success modeling and insights. Met students upon requests, graded assignments, and provided feedback to instructor, help to maintain a good learning environment. 
 
 * Research Assistant  
-  Supervior: Dr. Jerry L Hatfield  
   Project: Meta\-analysis on Swine Manure and Commercial Fertilizer  
   Fall 2017 to Spring 2018  
   Used meta\-analysis to study swine manure and commercial fertilizer by the effect of crop yield, water quality, gas emissions, and soil physicochemical properties vary by crops and environment. Extracted and analyzed data from 120+ research articles based on specific criterions with R language. Recognized environmental and human factors such as cropping system, fertilizer operation, application timing and more, and helped to understand many aspects of swine manure.
 
 * Research Assistant  
-  Supervior: Dr. Raj Raman & Dr. Amy Leigh Kaleita\-Forbes  
   Project: Engineering Education  
   Spring 2017  
   Applied statistical methods and decision tree to study the relationship between first\-year course performance and self\-reported behaviors by risk categories, provide better guidance and advice to students, understand the impact of study and life skills. 
 
 * Teaching Assistant  
-  Supervior: Dr. Udoyara S. Tim  
   Course: Engineering Graphics and Introductory Design  
   Spring 2014 \- Fall 2015  
   Collaborated on curriculum, demonstrated modeling technique, and solving students\’ problems. The class received NO.1 ranking in student evaluation within ABE department.
 
 # Skill
-* Proficient in programming languages \- R, Matlab, Visual Basic for Applications
-* Computer\-aided design modeling software \- SolidWorld
+* Programming languages - R, Visual Basic, MATLAB
+* CAD software: SolidWorks
+* Office software: Microsoft Excel and Word.
+* Machine learning: CART, SVM, Clustering, Association Rule, Artifactual Neural Network, Bayesian Network
+* Statistical Method: Generalized linear models
+
 
 # Professional Ativities & Honor 
-* Tau Beta Pi member
+* Tau Beta Pi membership
+* Alpha Epsilon membership
 
