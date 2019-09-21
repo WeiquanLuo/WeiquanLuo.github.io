@@ -29,6 +29,8 @@ navbar:
           href: Note-rmarkdown_site_generator.html
         - text: "Shiny"
           href: Note-Shiny.html
+        - text: "ML"
+          href: Note-ML.html
         - text: "Rpackages"
           href: Note-Rpackages.html
         - text: "Git_Github"
