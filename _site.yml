@@ -17,6 +17,8 @@ navbar:
           href: Note-plyr.html
         - text: "tibble"
           href: Note-tibble.html
+        - text: "purrr"
+          href: Note-purrr.html
         - text: "ggplot2"
           href: Note-ggplot2.html
         - text: "magick"
@@ -28,7 +30,7 @@ navbar:
         - text: "Shiny"
           href: Note-Shiny.html
         - text: "Rpackages"
-          href: Note_Rpackages.html
+          href: Note-Rpackages.html
         - text: "Git_Github"
           href: https://github.com/WeiquanLuo/Note-Git_Github
     - text: "About me"

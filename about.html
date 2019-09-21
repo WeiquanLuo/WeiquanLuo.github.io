@@ -7,6 +7,7 @@
 <meta charset="utf-8" />
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
 
 
@@ -72,9 +73,7 @@ h6 {
 
 <link rel="stylesheet" href="styles.css" type="text/css" />
 
-</head>
 
-<body>
 
 <style type = "text/css">
 .main-container {
@@ -88,7 +87,6 @@ code {
 }
 img {
   max-width:100%;
-  height: auto;
 }
 .tabbed-pane {
   padding-top: 12px;
@@ -193,8 +191,6 @@ $(document).ready(function () {
 });
 </script>
 
-<div class="container-fluid main-container">
-
 <!-- tabsets -->
 
 <style type="text/css">
@@ -251,20 +247,17 @@ $(document).ready(function () {
 }
 </style>
 
-<script>
-$(document).ready(function () {
-  window.buildTabsets("TOC");
-});
-
-$(document).ready(function () {
-  $('.tabset-dropdown > .nav-tabs > li').click(function () {
-    $(this).parent().toggleClass('nav-tabs-open')
-  });
-});
-</script>
-
 <!-- code folding -->
 
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
 
 
 
@@ -310,6 +303,9 @@ $(document).ready(function () {
       <a href="Note-tibble.html">tibble</a>
     </li>
     <li>
+      <a href="Note-purrr.html">purrr</a>
+    </li>
+    <li>
       <a href="Note-ggplot2.html">ggplot2</a>
     </li>
     <li>
@@ -325,7 +321,7 @@ $(document).ready(function () {
       <a href="Note-Shiny.html">Shiny</a>
     </li>
     <li>
-      <a href="Note_Rpackages.html">Rpackages</a>
+      <a href="Note-Rpackages.html">Rpackages</a>
     </li>
     <li>
       <a href="https://github.com/WeiquanLuo/Note-Git_Github">Git_Github</a>
@@ -395,7 +391,7 @@ Applied statistical methods and decision tree to study the relationship between 
 <li><p>Teaching Assistant<br />
 Course: Engineering Graphics and Introductory Design<br />
 Spring 2014 - Fall 2015<br />
-Collaborated on curriculum, demonstrated modeling technique, and solving students€™ problems. The class received NO.1 ranking in student evaluation within ABE department.</p></li>
+Collaborated on curriculum, demonstrated modeling technique, and solving students’ problems. The class received NO.1 ranking in student evaluation within ABE department.</p></li>
 </ul>
 </div>
 <div id="skill" class="section level1">
@@ -433,6 +429,23 @@ $(document).ready(function () {
 
 
 </script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
+<!-- code folding -->
+
 
 <!-- dynamically load mathjax for compatibility with self-contained -->
 <script>
