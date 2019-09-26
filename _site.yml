@@ -29,16 +29,19 @@ navbar:
           href: Note-devtools.html
         - text: "Web Applications: Shiny"
           href: Note-Shiny.html
-        - text: "Bayesian Network: bnlearn"
-          href: Note-bnlearn.html
-        - text: "Machine Learning"
-          href: Note-ML.html
         - text: "Blog: Data type"
           href: Note-Data_type.html
         - text: "Blog: tibble"
           href: Note-tibble.html
         - text: "Note: Git"
           href: https://github.com/WeiquanLuo/Note-Git_Github
+    - text: "Modeling"
+      icon: fa-chart-network
+      menu:
+        - text: "Bayesian Network: bnlearn"
+          href: Note-bnlearn.html
+        - text: "Machine Learning"
+          href: Note-ML.html
     - text: "About me"
       icon: fa-info
       href: about.html
