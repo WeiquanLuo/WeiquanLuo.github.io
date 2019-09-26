@@ -9,31 +9,31 @@ navbar:
     - text: "Study Note"
       icon: fa-book
       menu:
-        - text: "Data type"
-          href: Note-Data_type.html
-        - text: "dplyr"
+        - text: "Data Wrangling: dplyr"
           href: Note-dplyr.html
-        - text: "plyr"
+        - text: "Data Wrangling: plyr"
           href: Note-plyr.html
-        - text: "tibble"
-          href: Note-tibble.html
-        - text: "purrr"
+        - text: "Data Wrangling: purrr"
           href: Note-purrr.html
-        - text: "ggplot2"
+        - text: "Data Visualization: ggplot2"
           href: Note-ggplot2.html
-        - text: "magick"
+        - text: "Image Processing: magick"
           href: Note-magick.html
-        - text: "Regular Expression"
-          href: Note-Regular_Expression.html
-        - text: "rmarkdown"
+        - text: "Regular Expression: stringr"
+          href: Note-stringr.html
+        - text: "Dynamic Documents: rmarkdown"
           href: Note-rmarkdown_site_generator.html
-        - text: "Shiny"
+        - text: "Web Applications: Shiny"
           href: Note-Shiny.html
-        - text: "ML"
+        - text: "Machine Learning"
           href: Note-ML.html
-        - text: "Rpackages"
-          href: Note-Rpackages.html
-        - text: "Git_Github"
+        - text: "Package Development: devtools"
+          href: Note-devtools.html
+        - text: "Blog: Data type"
+          href: Note-Data_type.html
+        - text: "Blog: tibble"
+          href: Note-tibble.html
+        - text: "Note: Git"
           href: https://github.com/WeiquanLuo/Note-Git_Github
     - text: "About me"
       icon: fa-info
