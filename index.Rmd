@@ -1,5 +1,9 @@
 ---
 title: "Weiquan Luo"
+output: 
+  html_document:
+    includes:
+       in_header: GA_Script.html
 ---
 
 <style type="text/css">
