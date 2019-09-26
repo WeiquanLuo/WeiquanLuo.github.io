@@ -9,7 +9,7 @@ navbar:
       icon: fa-home
       href: index.html
     - text: "Study Note"
-      icon: r-project
+      icon: fa-r-project
       menu:
         - text: "Data Wrangling: dplyr"
           href: Note-dplyr.html
@@ -28,7 +28,7 @@ navbar:
         - text: "Web Applications: Shiny"
           href: Note-Shiny.html
     - text: "Modeling"
-      icon: fa-chart-network
+      icon: fa-cloudsmith
       menu:
         - text: "Machine Learning: Classification"
           href: Note-Classification.html
