@@ -29,19 +29,29 @@ navbar:
           href: Note-devtools.html
         - text: "Web Applications: Shiny"
           href: Note-Shiny.html
+        - text: "Version Control: Git"
+          href: https://github.com/WeiquanLuo/Note-Git_Github
         - text: "Blog: Data type"
           href: Note-Data_type.html
         - text: "Blog: tibble"
           href: Note-tibble.html
-        - text: "Note: Git"
-          href: https://github.com/WeiquanLuo/Note-Git_Github
     - text: "Modeling"
       icon: fa-chart-network
       menu:
-        - text: "Bayesian Network: bnlearn"
+        - text: "Machine Learning: Classification"
+          href: Note-Classification.html
+        - text: "Machine Learning: Clustering"
+          href: Note-Clustering.html
+        - text: "Machine Learning: Support Vector Machine"
+          href: Note-SVM.html
+        - text: "Machine Learning: Association Rule"
+          href: Note-AssociationRule.html
+        - text: "Machine Learning: Convolutional Neural Network"
+          href: NA.html
+        - text: "Machine Learning: Gradient Boosting"
+          href: NA.html
+        - text: "Probabilistic Graphical Model: Bayesian Network"
           href: Note-bnlearn.html
-        - text: "Machine Learning"
-          href: Note-ML.html
     - text: "About me"
       icon: fa-info
       href: about.html
