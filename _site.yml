@@ -17,8 +17,6 @@ navbar:
           href: Note-purrr.html
         - text: "Data Visualization: ggplot2"
           href: Note-ggplot2.html
-        - text: "Network Data: igraph"
-          href: Note-igraph.html
         - text: "Image Processing: magick"
           href: Note-magick.html
         - text: "Regular Expression: stringr"
@@ -46,14 +44,16 @@ navbar:
           href: Note-SVM.html
         - text: "Machine Learning: Association Rule"
           href: Note-AssociationRule.html
-        - text: "Machine Learning: Convolutional Neural Network"
+        - text: "Machine Learning: Convolutional Neural Network (comming up)"
           href: NA.html
-        - text: "Machine Learning: Gradient Boosting"
+        - text: "Machine Learning: Gradient Boosting (comming up)"
           href: NA.html
         - text: "Probabilistic Graphical Model: Bayesian Network"
           href: Note-bnlearn.html
-        - text: "Time Series Analysis: AutoRegressive Integrated Moving Average"
+        - text: "Time Series Analysis: AutoRegressive Integrated Moving Average (comming up)"
           href: NA.html
+        - text: "Graphical Model: Social network analysis"
+          href: Note-igraph.html
     - text: "About me"
       icon: fa-info
       href: about.html
