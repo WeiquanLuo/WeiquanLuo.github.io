@@ -52,6 +52,8 @@ navbar:
           href: NA.html
         - text: "Probabilistic Graphical Model: Bayesian Network"
           href: Note-bnlearn.html
+        - text: "Time Series Analysis: AutoRegressive Integrated Moving Average"
+          href: NA.html
     - text: "About me"
       icon: fa-info
       href: about.html
