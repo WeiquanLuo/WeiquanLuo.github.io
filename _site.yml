@@ -1,5 +1,6 @@
 name: "my-website"
 output_dir: "."
+base_url: https://weiquanluo.github.io/
 google_analytics: "UA-148890413-1"
 navbar:
   title: "WeiquanLuo's Webpage"
