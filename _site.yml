@@ -9,7 +9,7 @@ navbar:
       icon: fa-home
       href: index.html
     - text: "Study Note"
-      icon: fa-r-project
+      icon: fab fa-r-project
       menu:
         - text: "Data Wrangling: dplyr"
           href: Note-dplyr.html
