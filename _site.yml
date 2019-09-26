@@ -29,6 +29,8 @@ navbar:
           href: Note-Shiny.html
         - text: "Machine Learning"
           href: Note-ML.html
+        - text: "Blog: Generate site"
+          href: Note-Generate_site.html
         - text: "Blog: Data type"
           href: Note-Data_type.html
         - text: "Blog: tibble"
