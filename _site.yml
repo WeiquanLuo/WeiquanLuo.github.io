@@ -23,12 +23,12 @@ navbar:
           href: Note-stringr.html
         - text: "Dynamic Documents: rmarkdown"
           href: Note-rmarkdown_site_generator.html
+        - text: "Package Development: devtools"
+          href: Note-devtools.html
         - text: "Web Applications: Shiny"
           href: Note-Shiny.html
         - text: "Machine Learning"
           href: Note-ML.html
-        - text: "Package Development: devtools"
-          href: Note-devtools.html
         - text: "Blog: Data type"
           href: Note-Data_type.html
         - text: "Blog: tibble"
