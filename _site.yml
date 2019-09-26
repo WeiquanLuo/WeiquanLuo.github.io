@@ -22,7 +22,7 @@ navbar:
         - text: "Regular Expression: stringr"
           href: Note-stringr.html
         - text: "Dynamic Documents: rmarkdown"
-          href: Note-rmarkdown_site_generator.html
+          href: Note-rmarkdown.html
         - text: "Package Development: devtools"
           href: Note-devtools.html
         - text: "Web Applications: Shiny"
