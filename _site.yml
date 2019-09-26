@@ -29,6 +29,8 @@ navbar:
           href: Note-Shiny.html
         - text: "Bayesian Network: bnlearn"
           href: Note-bnlearn.html
+        - text: "Network Data: igraph"
+          href: Note-igraph.html
         - text: "Machine Learning"
           href: Note-ML.html
         - text: "Blog: Generate site"
