@@ -48,12 +48,12 @@ navbar:
           href: NA.html
         - text: "Machine Learning: Gradient Boosting (comming up)"
           href: NA.html
+        - text: "Graphical Model: Social network analysis"
+          href: Note-igraph.html
         - text: "Probabilistic Graphical Model: Bayesian Network"
           href: Note-bnlearn.html
         - text: "Time Series Analysis: AutoRegressive Integrated Moving Average (comming up)"
           href: NA.html
-        - text: "Graphical Model: Social network analysis"
-          href: Note-igraph.html
     - text: "About me"
       icon: fa-info
       href: about.html
