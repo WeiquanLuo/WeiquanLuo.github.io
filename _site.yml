@@ -17,6 +17,8 @@ navbar:
           href: Note-purrr.html
         - text: "Data Visualization: ggplot2"
           href: Note-ggplot2.html
+        - text: "Network Data: igraph"
+          href: Note-igraph.html
         - text: "Image Processing: magick"
           href: Note-magick.html
         - text: "Regular Expression: stringr"
@@ -29,8 +31,6 @@ navbar:
           href: Note-Shiny.html
         - text: "Bayesian Network: bnlearn"
           href: Note-bnlearn.html
-        - text: "Network Data: igraph"
-          href: Note-igraph.html
         - text: "Machine Learning"
           href: Note-ML.html
         - text: "Blog: Data type"
