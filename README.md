@@ -1,3 +1,3 @@
 # WeiquanLuo.github.io
 
-This repo store the file for generating the personal website.
+This repo store the files for generating the personal website.
