@@ -48,6 +48,11 @@ navbar:
           href: Note/Note-bnlearn.html
         - text: "Time Series Analysis: AutoRegressive Integrated Moving Average (comming up)"
           href: Note/NA.html
+    - text: "Project"
+      icon: fa-r-project
+      menu:
+        - text: "Hyperlink-Analysis"
+          href: Project/Hyperlink-Analysis.html
     - text: "Miscellaneous"
       icon: fa-book
       menu:
