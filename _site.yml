@@ -12,53 +12,53 @@ navbar:
       icon: fa-r-project
       menu:
         - text: "Data Wrangling: dplyr"
-          href: Note-dplyr.html
+          href: Note/Note-dplyr.html
         - text: "Data Wrangling: plyr"
-          href: Note-plyr.html
+          href: Note/Note-plyr.html
         - text: "Data Wrangling: purrr"
-          href: Note-purrr.html
+          href: Note/Note-purrr.html
         - text: "Data Visualization: ggplot2"
-          href: Note-ggplot2.html
+          href: Note/Note-ggplot2.html
         - text: "Regular Expression: stringr"
-          href: Note-stringr.html
+          href: Note/Note-stringr.html
         - text: "Package Development: devtools"
-          href: Note-devtools.html
+          href: Note/Note-devtools.html
         - text: "Dynamic Documents: rmarkdown"
-          href: Note-rmarkdown.html
+          href: Note/Note-rmarkdown.html
         - text: "Web Applications: Shiny"
-          href: Note-Shiny.html
+          href: Note/Note-Shiny.html
     - text: "Modeling"
       icon: fa-cloudsmith
       menu:
         - text: "Machine Learning: Classification"
-          href: Note-Classification.html
+          href: Note/Note-Classification.html
         - text: "Machine Learning: Clustering"
-          href: Note-Clustering.html
+          href: Note/Note-Clustering.html
         - text: "Machine Learning: Support Vector Machine"
-          href: Note-SVM.html
+          href: Note/Note-SVM.html
         - text: "Machine Learning: Association Rule"
-          href: Note-AssociationRule.html
+          href: Note/Note-AssociationRule.html
         - text: "Machine Learning: Convolutional Neural Network (comming up)"
-          href: NA.html
+          href: Note/NA.html
         - text: "Machine Learning: Gradient Boosting (comming up)"
-          href: NA.html
+          href: Note/NA.html
         - text: "Graphical Model: Social network analysis"
-          href: Note-igraph.html
+          href: Note/Note-igraph.html
         - text: "Probabilistic Graphical Model: Bayesian Network"
-          href: Note-bnlearn.html
+          href: Note/Note-bnlearn.html
         - text: "Time Series Analysis: AutoRegressive Integrated Moving Average (comming up)"
-          href: NA.html
+          href: Note/NA.html
     - text: "Miscellaneous"
       icon: fa-book
       menu:
         - text: "Image Processing: magick"
-          href: Note-magick.html
+          href: Note/Note-magick.html
         - text: "Version Control: Git"
           href: https://github.com/WeiquanLuo/Note-Git_Github
         - text: "Blog: Data type"
-          href: Note-Data_type.html
+          href: Note/Note-Data_type.html
         - text: "Blog: tibble"
-          href: Note-tibble.html
+          href: Note/Note-tibble.html
     - text: "About me"
       icon: fa-info
       href: about.html
