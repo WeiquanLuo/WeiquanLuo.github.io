@@ -6,10 +6,10 @@ navbar:
   title: "WeiquanLuo's Webpage"
   left:
     - text: "Home"
-      icon: fa-home
+      icon: fa fa-home
       href: index.html
     - text: "Study Note"
-      icon: fa-r-project
+      icon: fab fa-r-project
       menu:
         - text: "Data Wrangling: dplyr"
           href: Note/Note-dplyr.html
@@ -28,7 +28,7 @@ navbar:
         - text: "Web Applications: Shiny"
           href: Note/Note-Shiny.html
     - text: "Modeling"
-      icon: fa-cloudsmith
+      icon: fab fa-cloudsmith
       menu:
         - text: "Machine Learning: Classification"
           href: Note/Note-Classification.html
@@ -49,12 +49,12 @@ navbar:
         - text: "Time Series Analysis: AutoRegressive Integrated Moving Average (comming up)"
           href: Note/NA.html
     - text: "Project"
-      icon: fa-r-project
+      icon: fab fa-r-project
       menu:
         - text: "Hyperlink-Analysis"
           href: Project/Hyperlink-Analysis.html
     - text: "Miscellaneous"
-      icon: fa-book
+      icon: fas fa-book
       menu:
         - text: "Image Processing: magick"
           href: Note/Note-magick.html
@@ -65,11 +65,11 @@ navbar:
         - text: "Blog: tibble"
           href: Note/Note-tibble.html
     - text: "About me"
-      icon: fa-info
+      icon: fa fa-info
       href: about.html
   right:
     - text: "Repo"
-      icon: fa-github
+      icon: fa fa-github
       href: https://github.com/WeiquanLuo/WeiquanLuo.github.io
 output:
   html_document:
