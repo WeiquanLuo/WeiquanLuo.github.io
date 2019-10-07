@@ -17,8 +17,6 @@ navbar:
           href: Note/Note-plyr.html
         - text: "Data Wrangling: purrr"
           href: Note/Note-purrr.html
-        - text: "Statistical Method: stats"
-          href: Note/Note-stats.html
         - text: "Data Visualization: ggplot2"
           href: Note/Note-ggplot2.html
         - text: "Regular Expression: stringr"
@@ -50,6 +48,8 @@ navbar:
           href: Note/Note-bnlearn.html
         - text: "Time Series Analysis: AutoRegressive Integrated Moving Average (comming up)"
           href: Note/NA.html
+        - text: "Statistical Method: stats"
+          href: Note/Note-stats.html
     - text: "Project"
       icon: fab fa-r-project
       menu:
