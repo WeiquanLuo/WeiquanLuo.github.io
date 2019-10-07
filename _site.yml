@@ -11,6 +11,8 @@ navbar:
     - text: "Study Note"
       icon: fab fa-r-project
       menu:
+        - text: "Lazy Data: tibble"
+          href: Note/Note-tibble.html
         - text: "Data Wrangling: dplyr"
           href: Note/Note-dplyr.html
         - text: "Data Wrangling: plyr"
@@ -64,8 +66,6 @@ navbar:
           href: Note/Note-git.html
         - text: "Blog: Data type"
           href: Note/Note-Data_type.html
-        - text: "Blog: tibble"
-          href: Note/Note-tibble.html
     - text: "About me"
       icon: fa fa-info
       href: about.html
