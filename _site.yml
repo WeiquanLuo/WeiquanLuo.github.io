@@ -61,7 +61,7 @@ navbar:
         - text: "Image Processing: magick"
           href: Note/Note-magick.html
         - text: "Version Control: Git"
-          href: https://github.com/WeiquanLuo/Note-Git_Github
+          href: Note/Note-git.html
         - text: "Blog: Data type"
           href: Note/Note-Data_type.html
         - text: "Blog: tibble"
