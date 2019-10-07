@@ -53,7 +53,7 @@ navbar:
     - text: "Project"
       icon: fab fa-r-project
       menu:
-        - text: "Hyperlink-Analysis"
+        - text: "Social Network Analysis"
           href: Project/Hyperlink-Analysis.html
     - text: "Miscellaneous"
       icon: fas fa-book
