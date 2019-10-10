@@ -60,6 +60,8 @@ navbar:
     - text: "Miscellaneous"
       icon: fas fa-book
       menu:
+        - text: "Design of Experiment"
+          href: Note/Note-ExperimentDesign.html
         - text: "Image Processing: magick"
           href: Note/Note-magick.html
         - text: "Version Control: Git"
