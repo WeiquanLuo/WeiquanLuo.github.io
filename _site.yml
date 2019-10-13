@@ -32,6 +32,10 @@ navbar:
     - text: "Modeling"
       icon: fab fa-cloudsmith
       menu:
+        - text: "statistical Model: Linear Regression"
+          href: Note/Note-LinearRegression
+        - text: "statistical Model: ANOVA"
+          href: Note/Note-ANOVA.html
         - text: "Machine Learning: Classification"
           href: Note/Note-Classification.html
         - text: "Machine Learning: Clustering"
@@ -50,10 +54,6 @@ navbar:
           href: Note/Note-bnlearn.html
         - text: "Time Series Analysis: AutoRegressive Integrated Moving Average (comming up)"
           href: Note/NA.html
-        - text: "statistical Model: Regression"
-          href: Note/Note-stats.html
-        - text: "statistical Model: ANOVA"
-          href: Note/Note-ANOVA.html
     - text: "Project"
       icon: fab fa-r-project
       menu:
