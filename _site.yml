@@ -50,9 +50,9 @@ navbar:
           href: Note/Note-bnlearn.html
         - text: "Time Series Analysis: AutoRegressive Integrated Moving Average (comming up)"
           href: Note/NA.html
-        - text: "Regression"
+        - text: "statistical Model: Regression"
           href: Note/Note-stats.html
-        - text: "ANOVA"
+        - text: "statistical Model: ANOVA"
           href: Note/Note-ANOVA.html
     - text: "Project"
       icon: fab fa-r-project
