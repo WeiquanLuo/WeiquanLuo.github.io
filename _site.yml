@@ -32,9 +32,9 @@ navbar:
     - text: "Modeling"
       icon: fab fa-cloudsmith
       menu:
-        - text: "statistical Model: Linear Regression"
+        - text: "Statistical Model: Linear Regression"
           href: Note/Note-LinearRegression
-        - text: "statistical Model: ANOVA"
+        - text: "Statistical Model: ANOVA"
           href: Note/Note-ANOVA.html
         - text: "Machine Learning: Classification"
           href: Note/Note-Classification.html
