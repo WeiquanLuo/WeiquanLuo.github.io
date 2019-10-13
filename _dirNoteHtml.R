@@ -1,9 +1,7 @@
 # dirNoteHtml.R
-
 setwd(dirname(rstudioapi::getSourceEditorContext()$path))
 rm(list=ls())
 dev.off()
-
 
 dirStartXxx <- function(xxx = "",d = 0, istart = NULL, nstart = NULL){
 
