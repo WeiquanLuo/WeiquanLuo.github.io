@@ -12,7 +12,7 @@
 
 <meta name="author" content="Weiquan Luo" />
 
-<meta name="date" content="2019-10-10" />
+<meta name="date" content="2019-10-11" />
 
 <title>Note-stats</title>
 
@@ -371,7 +371,7 @@ summary {
 
 <h1 class="title toc-ignore">Note-stats</h1>
 <h4 class="author">Weiquan Luo</h4>
-<h4 class="date">2019-10-10</h4>
+<h4 class="date">2019-10-11</h4>
 
 </div>
 
@@ -632,6 +632,20 @@ Sacramento$cooks.d &lt;- cooks.distance(Sacramento.lm1)
 </div>
 <div id="simple-linear-model" class="section level3">
 <h3>2.2.2 Simple Linear Model</h3>
+<p>This section gives an example of <code>simple linear regression</code>, that is, regression with only a single explanatory variable—with seven observations. The seven data points are <span class="math inline">\({y_i, x_i}\)</span>, for <span class="math inline">\(i= 1,2,3,...,7\)</span>. The simple linear regression model is:</p>
+<p><span class="math display">\[
+y_i = \beta_0 + \beta_1 x_i +\varepsilon_i, 
+\]</span></p>
+<p>where $ _0$ is the y-intercept and <span class="math inline">\(\beta_1\)</span> is the slope of the regression line. This model can be represented in matrix form as:</p>
+<p><span class="math display">\[
+\left[\begin{array} \\ y_1 \\ y_2 \\ y_3 \\ y_4 \\ y_5 \\ y_6 \\ y_7 \end{array}\right]
+= 
+\left[\begin{array} \\1 &amp; x_1  \\1 &amp; x_2  \\1 &amp; x_3  \\1 &amp; x_4  \\1 &amp; x_5  \\1 &amp; x_6 \\ 1 &amp; x_7  \end{array}\right]
+\left[\begin{array} \beta_0 \\ \beta_1  \end{array}\right]
++
+\left[\begin{array} \varepsilon_1 \\ \varepsilon_2 \\ \varepsilon_3 \\
+\varepsilon_4 \\ \varepsilon_5 \\ \varepsilon_6 \\ \varepsilon_7 \end{array}\right]
+\]</span> where the first column of ones in the design matrix allows estimation of the y-intercept while the second column contains the x-values associated with the corresponding y-values.</p>
 <pre class="r"><code>Sacramento.lm1 &lt;- lm(price ~ sqft , data=Sacramento)
 summary(Sacramento.lm1)</code></pre>
 <pre><code>## 
@@ -659,6 +673,20 @@ summary(Sacramento.lm1)</code></pre>
 </div>
 <div id="multiple-linear-model" class="section level3">
 <h3>2.2.3 Multiple Linear Model</h3>
+<p>This section contains an example of <code>multiple Linear regression</code> with two covariates (explanatory variables): <code>w</code> and <code>x</code>. Again suppose that the data consist of seven observations, and that for each observed value to be predicted (<span class="math inline">\(y_i\)</span>), values <span class="math inline">\(w_i\)</span> and <span class="math inline">\(x_i\)</span> of the two covariates are also observed. The model to be considered is:</p>
+<p><span class="math display">\[
+y_i = \beta_0 + \beta_1 w_i + \beta_2 x_i + \varepsilon_i
+\]</span></p>
+<p>This model can be written in matrix terms as:</p>
+<p><span class="math display">\[
+\left[\begin{array} \\y_1 \\ y_2 \\ y_3 \\ y_4 \\ y_5 \\ y_6 \\ y_7 \end{array}\right] 
+= 
+\left[\begin{array} \\1 &amp; w_1 &amp; x_1  \\1 &amp; w_2 &amp; x_2  \\1 &amp; w_3 &amp; x_3  \\1 &amp; w_4 &amp; x_4  \\1 &amp; w_5 &amp; x_5  \\1 &amp; w_6 &amp; x_6 \\ 1&amp; w_7  &amp; x_7  \end{array}\right]
+\left[\begin{array} \\\beta_0 \\ \beta_1 \\ \beta_2  \end{array}\right]
++
+\left[\begin{array}\\ \varepsilon_1 \\ \varepsilon_2 \\ \varepsilon_3 \\ \varepsilon_4 \\ \varepsilon_5 \\ \varepsilon_6 \\ \varepsilon_7 \end{array}\right]
+\]</span></p>
+<p>Here the 7×3 matrix on the right side is the design matrix.</p>
 <pre class="r"><code>SacramentoP.lm &lt;- lm(price ~ sqft + beds + I(sqft*beds), data=Sacramento) # with interaction
 #prediction  in 3D
 data.mash&lt;-{}
