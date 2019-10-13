@@ -8,7 +8,7 @@ navbar:
     - text: "Home"
       icon: fa fa-home
       href: index.html
-    - text: "Study Note"
+    - text: "R Note"
       icon: fab fa-r-project
       menu:
         - text: "Lazy Data: tibble"
