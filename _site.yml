@@ -40,12 +40,12 @@ navbar:
           href: Note/Note-gam.html
         - text: "Statistical Model: Meta-Analysis (comming up)"
           href: Note/NA.html
+        - text: "Statistical Model: Time Series Analysis (comming up)"
+          href: Note/NA.html
         - text: "Graphical Model: Social network analysis"
           href: Note/Note-igraph.html
         - text: "Probabilistic Graphical Model: Bayesian Network"
           href: Note/Note-bnlearn.html
-        - text: "Time Series Analysis: AutoRegressive Integrated Moving Average (comming up)"
-          href: Note/NA.html
         - text: "Machine Learning: Classification"
           href: Note/Note-Classification.html
         - text: "Machine Learning: Clustering"
