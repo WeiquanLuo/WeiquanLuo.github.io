@@ -50,7 +50,7 @@ navbar:
           href: Note/Note-SVM.html
         - text: "Machine Learning: Association Rule"
           href: Note/Note-AssociationRule.html
-        - text: "Machine Learning: Convolutional Neural Network (comming up)"
+        - text: "Machine Learning: Neural Network (comming up)"
           href: Note/NA.html
         - text: "Machine Learning: Gradient Boosting (comming up)"
           href: Note/NA.html
