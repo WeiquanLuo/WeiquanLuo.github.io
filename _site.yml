@@ -38,6 +38,8 @@ navbar:
           href: Note/Note-LinearRegression
         - text: "Statistical Model: Generalized Additive Models (imcompleted)"
           href: Note/Note-gam.html
+        - text: "Statistical Model: Meta-Analysis (comming up)"
+          href: Note/NA.html
         - text: "Graphical Model: Social network analysis"
           href: Note/Note-igraph.html
         - text: "Probabilistic Graphical Model: Bayesian Network"
