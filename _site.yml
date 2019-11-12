@@ -63,6 +63,8 @@ navbar:
       menu:
         - text: "Social Network Analysis"
           href: Project/Hyperlink-Analysis.html
+        - text: "R package: rivertopo"
+          href: https://github.com/WeiquanLuo/rivertopo
     - text: "Miscellaneous"
       icon: fas fa-book
       menu:
