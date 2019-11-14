@@ -65,6 +65,8 @@ navbar:
           href: Project/Hyperlink-Analysis.html
         - text: "R package: rivertopo"
           href: https://github.com/WeiquanLuo/rivertopo
+        - text: "LCA: PetFoodSupplyChain"
+          href: https://github.com/WeiquanLuo/LCA-PetFoodSupplyChain
     - text: "Miscellaneous"
       icon: fas fa-book
       menu:
