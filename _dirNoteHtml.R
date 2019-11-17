@@ -21,14 +21,16 @@ dirStartXxx <- function(xxx = "",d = 0, istart = NULL, nstart = NULL){
   
 
   wd_ <- data.frame(folder_ = wd_, stringsAsFactors = FALSE)
-  wd_ <- wd_ %>% mutate(dir_ = purrr::map(folder_ , function(x) paste("../../", x, "/", sep = "")))
-  wd_ <- wd_ %>% mutate(file_ = paste0( dir_, folder_, ".html"))
-  print(wd_)
+  wd_ <- wd_ %>% 
+    mutate(dir_ = purrr::map(folder_ , function(x) paste("../../", x, "/", sep = "")) %>% 
+             unlist)
+  wd_ <- wd_ %>% 
+    mutate(file_ = paste0(dir_, folder_, ".html"))
   return (wd_)
 }
 
 # copying
-files_copying <- dirStartXxx(xxx = "html", d =2, istart = "Note")
+files_copying <- dirStartXxx(xxx = "html", d =2, istart = "Note"); files_copying %>% as_tibble()
 file.copy(from = files_copying$file_, to = file.path(getwd(),"Note"), overwrite = TRUE)
 
 # render
