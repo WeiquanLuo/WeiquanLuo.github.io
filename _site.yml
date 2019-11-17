@@ -80,6 +80,8 @@ navbar:
           href: Note/Note-Data_type.html
         - text: "Blog: Machine Learning Workflow"
           href: Note/Machine Learning Workflow.pdf
+        - text: "Blog: Functional Programming"
+          href: Note/Note-FunctionalProgramming.html
     - text: "About me"
       icon: fa fa-info
       href: about.html
