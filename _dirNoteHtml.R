@@ -2,6 +2,12 @@
 setwd(dirname(rstudioapi::getSourceEditorContext()$path))
 rm(list=ls())
 dev.off()
+library(dplyr)
+library(purrr)
+
+xxx = "html"
+d =2
+istart = "Note"
 
 dirStartXxx <- function(xxx = "",d = 0, istart = NULL, nstart = NULL){
 
@@ -13,15 +19,17 @@ dirStartXxx <- function(xxx = "",d = 0, istart = NULL, nstart = NULL){
   if (!is.null(istart)) (wd_ <- wd_[grep(paste("^*", istart, sep = ""), wd_, value = F)])
   if (!is.null(nstart)) (wd_ <- wd_[-grep(paste("^", nstart, sep = ""), wd_, value = F)])
   
+
+  wd_ <- data.frame(folder_ = wd_, stringsAsFactors = FALSE)
+  wd_ <- wd_ %>% mutate(dir_ = purrr::map(folder_ , function(x) paste("../../", x, "/", sep = "")))
+  wd_ <- wd_ %>% mutate(file_ = paste0( dir_, folder_, ".html"))
   print(wd_)
-  wd_ <- unlist(lapply(wd_, function(x) (paste("../../", x, "/", sep = ""))))
-  wd_ <- sapply(wd_, function(x) (list.files(path = x, pattern = paste("*.", xxx ,"$", sep = ""))))
-  return (paste(names(wd_),as.vector(wd_), sep = ""))
+  return (wd_)
 }
 
 # copying
 files_copying <- dirStartXxx(xxx = "html", d =2, istart = "Note")
-file.copy(from = files_copying, to = file.path(getwd(),"Note"), overwrite = TRUE)
+file.copy(from = files_copying$file_, to = file.path(getwd(),"Note"), overwrite = TRUE)
 
 # render
 rmarkdown::render_site()
