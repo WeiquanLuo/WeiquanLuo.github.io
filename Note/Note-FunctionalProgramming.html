@@ -12,7 +12,7 @@
 
 <meta name="author" content="Weiquan Luo" />
 
-<meta name="date" content="2019-11-17" />
+<meta name="date" content="2019-11-18" />
 
 <title>Note-FunctionalProgramming</title>
 
@@ -371,7 +371,7 @@ summary {
 
 <h1 class="title toc-ignore">Note-FunctionalProgramming</h1>
 <h4 class="author">Weiquan Luo</h4>
-<h4 class="date">2019-11-17</h4>
+<h4 class="date">2019-11-18</h4>
 
 </div>
 
@@ -379,13 +379,18 @@ summary {
 <ul>
 <li><a href="#use-of-this-document">Use of this document</a></li>
 <li><a href="#prerequisites">Prerequisites</a></li>
-<li><a href="#characteristics-of-functional-programming">1. characteristics of functional programming</a></li>
+<li><a href="#characteristics-of-functional-programming">1. characteristics of functional programming</a><ul>
+<li><a href="#test-module-execution-module">1.1 Test Module &amp; Execution Module</a></li>
+</ul></li>
 <li><a href="#generic-method">2. Generic Method</a><ul>
 <li><a href="#a-listized-array-with-constant-inputs">2.1 a listized array with constant inputs</a></li>
 <li><a href="#two-listized-array-with-constant-inputs">2.2 Two listized array with constant inputs</a></li>
 <li><a href="#a-listized-dataframe-with-constant-inputs">2.3 a listized dataframe with constant inputs</a></li>
 </ul></li>
-<li><a href="#split-apply-combine-method">3. split-apply-combine method</a></li>
+<li><a href="#advance-method">3. Advance Method</a><ul>
+<li><a href="#split-apply-combine-method">3.1 Split-Apply-Combine Method</a></li>
+<li><a href="#nested-functional-programming-method">3.2 Nested Functional Programming Method</a></li>
+</ul></li>
 </ul>
 </div>
 
@@ -404,18 +409,21 @@ mysum &lt;- function(x = NULL, y = NULL, z = NULL, k = NULL){
   return(sum(x,y,z,k))
 }
 # Define the dataframe
-df &lt;- data_frame(x = runif(n=5, min=-10, max=10) %&gt;% round(),
+createDF &lt;- function(seed=0){
+  set.seed(seed)
+  df &lt;- data.frame(x = runif(n=5, min=-10, max=10) %&gt;% round(),
                  y = runif(n=5, min=-10, max=10) %&gt;% round(),
                  z = runif(n=5, min=-10, max=10) %&gt;% round(),
-                 k = rep(100,5));  df</code></pre>
-<pre><code>## # A tibble: 5 x 4
-##       x     y     z     k
-##   &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt;
-## 1    -7     2     6   100
-## 2    -5    -2    -3   100
-## 3     8     5    -6   100
-## 4     7     8     8   100
-## 5     4     6    -1   100</code></pre>
+                 k = rep(100,5))
+  return(df)
+}
+df &lt;- createDF(); df</code></pre>
+<pre><code>##    x  y  z   k
+## 1  8 -6 -9 100
+## 2 -5  8 -6 100
+## 3 -3  9 -6 100
+## 4  1  3  4 100
+## 5  8  3 -2 100</code></pre>
 </div>
 <div id="characteristics-of-functional-programming" class="section level1">
 <h1>1. characteristics of functional programming</h1>
@@ -429,6 +437,19 @@ df &lt;- data_frame(x = runif(n=5, min=-10, max=10) %&gt;% round(),
 <li>Higher-order funcion</li>
 <li>pure function</li>
 </ul>
+<div id="test-module-execution-module" class="section level2">
+<h2>1.1 Test Module &amp; Execution Module</h2>
+<pre class="r"><code># Test Module
+nested_data &lt;- data %&gt;% tidyr::nest(index)
+data &lt;- nested_data$data[[1]]; data
+myfun &lt;- function(data){
+  
+}
+
+# Execution Module
+data %&gt;% tidyr::nest(index) %&gt;% 
+  mutate(result = data %&gt;% purrr::map(myfun))</code></pre>
+</div>
 </div>
 <div id="generic-method" class="section level1">
 <h1>2. Generic Method</h1>
@@ -465,11 +486,11 @@ tibble(mysum_plyr = mysum_plyr %&gt;% unlist,
 <pre><code>## # A tibble: 5 x 3
 ##   mysum_plyr mysum_purrr mysum_furrr
 ##        &lt;dbl&gt;       &lt;dbl&gt;       &lt;dbl&gt;
-## 1        193         193         193
+## 1        208         208         208
 ## 2        195         195         195
-## 3        208         208         208
-## 4        207         207         207
-## 5        204         204         204</code></pre>
+## 3        197         197         197
+## 4        201         201         201
+## 5        208         208         208</code></pre>
 </div>
 <div id="two-listized-array-with-constant-inputs" class="section level2">
 <h2>2.2 Two listized array with constant inputs</h2>
@@ -491,11 +512,11 @@ tibble(mysum_purrr = mysum_purrr %&gt;% unlist,
 <pre><code>## # A tibble: 5 x 2
 ##   mysum_purrr mysum_furrr
 ##         &lt;dbl&gt;       &lt;dbl&gt;
-## 1          95          95
-## 2          93          93
-## 3         113         113
-## 4         115         115
-## 5         110         110</code></pre>
+## 1         102         102
+## 2         103         103
+## 3         106         106
+## 4         104         104
+## 5         111         111</code></pre>
 </div>
 <div id="a-listized-dataframe-with-constant-inputs" class="section level2">
 <h2>2.3 a listized dataframe with constant inputs</h2>
@@ -512,10 +533,10 @@ tibble(mysum_plyr = mysum_plyr %&gt;% unlist,
 <pre><code>## # A tibble: 5 x 3
 ##   mysum_plyr mysum_purrr mysum_furrr
 ##        &lt;dbl&gt;       &lt;dbl&gt;       &lt;dbl&gt;
-## 1        101         101         101
-## 2         90          90          90
-## 3        107         107         107
-## 4        123         123         123
+## 1         93          93          93
+## 2         97          97          97
+## 3        100         100         100
+## 4        108         108         108
 ## 5        109         109         109</code></pre>
 <pre class="r"><code>df &lt;- data_frame(x = runif(n=20, min=-10, max=10) %&gt;% round(),
                  y = runif(n=20, min=-10, max=10) %&gt;% round(),
@@ -524,61 +545,31 @@ tibble(mysum_plyr = mysum_plyr %&gt;% unlist,
   tibble::rowid_to_column(&quot;index&quot;)</code></pre>
 </div>
 </div>
-<div id="split-apply-combine-method" class="section level1">
-<h1>3. split-apply-combine method</h1>
+<div id="advance-method" class="section level1">
+<h1>3. Advance Method</h1>
+<div id="split-apply-combine-method" class="section level2">
+<h2>3.1 Split-Apply-Combine Method</h2>
 <ol style="list-style-type: decimal">
 <li>nest creates list of data frames (split)</li>
 <li>map applies function to list object (apply)</li>
 <li>unnest moves list results back into a data frame (combine)</li>
 </ol>
 <pre class="r"><code>library(gapminder)
+myfit &lt;- function (dframe) {
+  lm(lifeExp ~ year, data = dframe)
+}
 
 countryList &lt;- gapminder %&gt;% mutate(year = year-1950) %&gt;% 
   tidyr::nest(-country, -continent) 
-countryList</code></pre>
-<pre><code>## # A tibble: 142 x 3
-##    country     continent           data
-##    &lt;fct&gt;       &lt;fct&gt;     &lt;list&lt;df[,4]&gt;&gt;
-##  1 Afghanistan Asia            [12 × 4]
-##  2 Albania     Europe          [12 × 4]
-##  3 Algeria     Africa          [12 × 4]
-##  4 Angola      Africa          [12 × 4]
-##  5 Argentina   Americas        [12 × 4]
-##  6 Australia   Oceania         [12 × 4]
-##  7 Austria     Europe          [12 × 4]
-##  8 Bahrain     Asia            [12 × 4]
-##  9 Bangladesh  Asia            [12 × 4]
-## 10 Belgium     Europe          [12 × 4]
-## # … with 132 more rows</code></pre>
-<pre class="r"><code>myfit &lt;- function (dframe) {
-  lm(lifeExp ~ year, data = dframe)
-}
-countryList &lt;- countryList %&gt;% mutate(
-    model = purrr::map(data, myfit)
-)
-head(countryList)</code></pre>
-<pre><code>## # A tibble: 6 x 4
-##   country     continent           data model 
-##   &lt;fct&gt;       &lt;fct&gt;     &lt;list&lt;df[,4]&gt;&gt; &lt;list&gt;
-## 1 Afghanistan Asia            [12 × 4] &lt;lm&gt;  
-## 2 Albania     Europe          [12 × 4] &lt;lm&gt;  
-## 3 Algeria     Africa          [12 × 4] &lt;lm&gt;  
-## 4 Angola      Africa          [12 × 4] &lt;lm&gt;  
-## 5 Argentina   Americas        [12 × 4] &lt;lm&gt;  
-## 6 Australia   Oceania         [12 × 4] &lt;lm&gt;</code></pre>
-<pre class="r"><code>countryList %&gt;%
-  mutate(
-    intercept = model %&gt;% purrr::map_dbl(.f = function(m) coef(m)[1]),
-    slope = model %&gt;% purrr::map_dbl(.f = function(m) coef(m)[2])
-  ) %&gt;% head(5)</code></pre>
-<pre><code>## # A tibble: 5 x 6
-##   country     continent           data model  intercept slope
-##   &lt;fct&gt;       &lt;fct&gt;     &lt;list&lt;df[,4]&gt;&gt; &lt;list&gt;     &lt;dbl&gt; &lt;dbl&gt;
-## 1 Afghanistan Asia            [12 × 4] &lt;lm&gt;        29.4 0.275
-## 2 Albania     Europe          [12 × 4] &lt;lm&gt;        58.6 0.335
-## 3 Algeria     Africa          [12 × 4] &lt;lm&gt;        42.2 0.569
-## 4 Angola      Africa          [12 × 4] &lt;lm&gt;        31.7 0.209
-## 5 Argentina   Americas        [12 × 4] &lt;lm&gt;        62.2 0.232</code></pre>
+
+countryList &lt;- countryList %&gt;% 
+  mutate(model = purrr::map(data, myfit)) %&gt;% 
+  mutate(intercept = model %&gt;% purrr::map_dbl(.f = function(m) coef(m)[1]),
+         slope = model %&gt;% purrr::map_dbl(.f = function(m) coef(m)[2]))</code></pre>
+</div>
+<div id="nested-functional-programming-method" class="section level2">
+<h2>3.2 Nested Functional Programming Method</h2>
+</div>
 </div>
 
 
