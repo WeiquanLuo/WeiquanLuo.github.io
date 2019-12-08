@@ -67,7 +67,7 @@ navbar:
           href: https://github.com/WeiquanLuo/rivertopo
         - text: "R package: stNet"
           href: https://github.com/WeiquanLuo/stNet
-        - text: "LCA: PetFoodSupplyChain"
+        - text: "EIO-LCA Analysis"
           href: https://github.com/WeiquanLuo/LCA-PetFoodSupplyChain
     - text: "Miscellaneous"
       icon: fas fa-book
@@ -81,7 +81,7 @@ navbar:
         - text: "Blog: Data type"
           href: Note/Note-Data_type.html
         - text: "Blog: Machine Learning Workflow"
-          href: Note/Machine Learning Workflow.pdf
+          href: Note/Machine Learning Workflow.png
         - text: "Blog: Functional Programming"
           href: Note/Note-FunctionalProgramming.html
     - text: "About me"
