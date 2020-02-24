@@ -69,8 +69,6 @@ navbar:
           href: https://github.com/WeiquanLuo/stNet
         - text: "EIO-LCA Analysis"
           href: https://github.com/WeiquanLuo/LCA-PetFoodSupplyChain
-        - text: "Portfolio_CAPM_ff5"
-          href: Note/Portfolio_CAPM_ff5.html
         - text: "SP500_CAPM_ff5"
           href: Note/SP500_CAPM_ff5.html
     - text: "Miscellaneous"
