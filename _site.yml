@@ -71,6 +71,8 @@ navbar:
           href: https://github.com/WeiquanLuo/LCA-PetFoodSupplyChain
         - text: "SP500_CAPM_ff5"
           href: Note/SP500_CAPM_ff5.html
+        - text: "Cornell Birdcall Identification: SE-ResNet"
+          href: https://www.kaggle.com/weiquanl/se-resnet-birdsong
     - text: "Miscellaneous"
       icon: fas fa-book
       menu:
@@ -86,9 +88,9 @@ navbar:
           href: Note/Machine Learning Workflow.png
         - text: "Blog: Functional Programming"
           href: Note/Note-FunctionalProgramming.html
-    - text: "About me"
+    - text: "Résumé"
       icon: fa fa-info
-      href: about.html
+      href: Resume_090120.pdf
   right:
     - text: "Repo"
       icon: fa fa-github
