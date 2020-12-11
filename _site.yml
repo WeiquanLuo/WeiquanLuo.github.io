@@ -73,6 +73,8 @@ navbar:
           href: Note/SP500_CAPM_ff5.html
         - text: "Cornell Birdcall Identification: SE-ResNet"
           href: https://www.kaggle.com/weiquanl/se-resnet-birdsong
+        - text: "Mini-Project: Genshin Impact wishes"
+          href: Project/Simulation of Genshin Impact wishes.html
     - text: "Miscellaneous"
       icon: fas fa-book
       menu:
