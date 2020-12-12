@@ -61,20 +61,20 @@ navbar:
     - text: "Project"
       icon: fab fa-r-project
       menu:
-        - text: "Social Network Analysis"
+        - text: "Network Analysis: Instagram API Documentation structure"
           href: Project/Hyperlink-Analysis.html
+        - text: "Linear regression and cluster: EIO-LCA Analysis"
+          href: https://github.com/WeiquanLuo/LCA-PetFoodSupplyChain
+        - text: "Fama French Five Factor Asset Pricing Model: SP500"
+          href: Note/SP500_CAPM_ff5.html
+        - text: "SE-ResNet: Cornell Birdcall Identification"
+          href: https://www.kaggle.com/weiquanl/se-resnet-birdsong
+        - text: "Monte Carlo Simulation: Genshin Impact wishes"
+          href: Project/Simulation of Genshin Impact wishes.html
         - text: "R package: rivertopo"
           href: https://github.com/WeiquanLuo/rivertopo
         - text: "R package: stNet"
           href: https://github.com/WeiquanLuo/stNet
-        - text: "EIO-LCA Analysis"
-          href: https://github.com/WeiquanLuo/LCA-PetFoodSupplyChain
-        - text: "Capital Asset Pricing Model(ff5_SP500)"
-          href: Note/SP500_CAPM_ff5.html
-        - text: "Cornell Birdcall Identification: SE-ResNet"
-          href: https://www.kaggle.com/weiquanl/se-resnet-birdsong
-        - text: "Mini-Project: Genshin Impact wishes"
-          href: Project/Simulation of Genshin Impact wishes.html
     - text: "Miscellaneous"
       icon: fas fa-book
       menu:
