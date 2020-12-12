@@ -69,7 +69,7 @@ navbar:
           href: https://github.com/WeiquanLuo/stNet
         - text: "EIO-LCA Analysis"
           href: https://github.com/WeiquanLuo/LCA-PetFoodSupplyChain
-        - text: "SP500_CAPM_ff5"
+        - text: "Capital Asset Pricing Model(ff5_SP500)"
           href: Note/SP500_CAPM_ff5.html
         - text: "Cornell Birdcall Identification: SE-ResNet"
           href: https://www.kaggle.com/weiquanl/se-resnet-birdsong
