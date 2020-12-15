@@ -399,7 +399,8 @@ summary {
 <li><a href="#partitioning-of-the-sum-of-squares">2.2.2 Partitioning of the sum of squares</a></li>
 <li><a href="#degree-of-freedom">2.2.3 Degree of Freedom</a></li>
 <li><a href="#f-ratio-f-distribution-and-p-value">2.2.4 F-Ratio, F-Distribution, and P-value</a></li>
-<li><a href="#type-i-ii-and-iii-sums-of-squares">2.3 Type I, II, and III Sums of Squares</a></li>
+</ul></li>
+<li><a href="#type-i-ii-and-iii-sums-of-squares">2.3 Type I, II, and III Sums of Squares</a><ul>
 <li><a href="#type-i-sum-of-squares">2.3.1 Type I sum of squares</a></li>
 <li><a href="#type-ii-sum-of-squares">2.3.2 Type II sum of squares</a></li>
 <li><a href="#type-iii-sum-of-squares">2.3.3 Type III sum of squares</a></li>
@@ -669,8 +670,9 @@ Between Error and Within Error
 <p><code>Between group variation</code> is compared to <code>within group variation</code> to determine treatment effect.</p>
 <p>We can calculate the “F-ratio” as <span class="math inline">\(\frac{(between group variation)}{(within group variation)}\)</span>. This is equivalent to <span class="math inline">\(\frac{(treatment effect + error)}{(error)}\)</span>. If the treatment effect goes to zero, the <code>F ratio</code> will be <span class="math inline">\(\frac{(error)}{(error)}\)</span> and go to 1. If the treatment effect increases toward infinity, the F ratio will also go towards infinity.</p>
 </div>
-<div id="type-i-ii-and-iii-sums-of-squares" class="section level3">
-<h3>2.3 Type I, II, and III Sums of Squares</h3>
+</div>
+<div id="type-i-ii-and-iii-sums-of-squares" class="section level2">
+<h2>2.3 Type I, II, and III Sums of Squares</h2>
 <p>Consider a model that includes two factors <code>A</code> and <code>B</code>; there are therefore two main effects, and an interaction, <code>AB</code>. The full model is represented by <code>SS(A, B, AB)</code>.</p>
 <p>Perhaps most salient point for beginners is that SAS tends to use Type III by default whereas R will use Type I with the anova function. In R, Type II and Type III tests are accessed through Anova in the car package, as well as through some other functions for other types of analyses. However, for Type III tests to be correct, the way R codes factors has to be changed from its default with the <code>options(contrasts =…</code> function. Changing this will not affect Type I or Type II tests.</p>
 <table>
@@ -716,7 +718,6 @@ Between Error and Within Error
 </tbody>
 </table>
 <p>(source: <a href="http://md.psych.bio.uni-goettingen.de/mv/unit/lm_cat/lm_cat_unbal_ss_explained.html" class="uri">http://md.psych.bio.uni-goettingen.de/mv/unit/lm_cat/lm_cat_unbal_ss_explained.html</a>)</p>
-</div>
 <div id="type-i-sum-of-squares" class="section level3">
 <h3>2.3.1 Type I sum of squares</h3>
 <p>Type I sums of squares are determined by considering each source (factor) sequentially, in the order they are listed in the model. The Type I SS may not be particularly useful for analyses of unbalanced, multi-way structures but may be useful for balanced data and nested models. Type I SS are also useful for parsimonious polynomial models (i.e. regressions), allowing the simpler components (e.g. linear) to explain as much variation as possible before resorting to models of higher complexity (e.g. quadratic, cubic, etc.). Also, comparing Type I and other types of sums of squares provides some information regarding the magnitude of imbalance in the data. Types II and III SS are also know as partial sums of squares, in which each effect is adjusted for other effects.</p>
