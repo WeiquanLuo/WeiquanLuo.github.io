@@ -35,7 +35,7 @@ navbar:
         - text: "Statistical Model: ANOVA"
           href: Note/Note-ANOVA.html
         - text: "Statistical Model: Linear Regression"
-          href: Note/Note-LinearRegression
+          href: Note/Note-LinearRegression.html
         - text: "Statistical Model: Linear Mixed-effect Regression"
           href: Note/Note-LMM.html
         - text: "Statistical Model: Generalized Additive Models (imcompleted)"
