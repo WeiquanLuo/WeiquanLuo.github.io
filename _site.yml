@@ -3,7 +3,7 @@ output_dir: "."
 base_url: https://weiquanluo.github.io/
 google_analytics: "UA-148890413-1"
 navbar:
-  title: "WeiquanLuo's Webpage"
+  title: "W. Luo's Webpage"
   left:
     - text: "Home"
       icon: fa fa-home
