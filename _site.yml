@@ -8,27 +8,6 @@ navbar:
     - text: "Home"
       icon: fa fa-home
       href: index.html
-    - text: "R Note"
-      icon: fab fa-r-project
-      menu:
-        - text: "Lazy Data: tibble"
-          href: Note/Note-tibble.html
-        - text: "Data Wrangling: dplyr"
-          href: Note/Note-dplyr.html
-        - text: "Data Wrangling: plyr"
-          href: Note/Note-plyr.html
-        - text: "Data Wrangling: purrr"
-          href: Note/Note-purrr.html
-        - text: "Data Visualization: ggplot2"
-          href: Note/Note-ggplot2.html
-        - text: "Regular Expression: stringr"
-          href: Note/Note-stringr.html
-        - text: "Package Development: devtools"
-          href: Note/Note-devtools.html
-        - text: "Dynamic Documents: rmarkdown"
-          href: Note/Note-rmarkdown.html
-        - text: "Web Applications: Shiny"
-          href: Note/Note-Shiny.html
     - text: "Modeling"
       icon: fab fa-cloudsmith
       menu:
@@ -77,21 +56,47 @@ navbar:
           href: https://github.com/WeiquanLuo/rivertopo
         - text: "R package: stNet"
           href: https://github.com/WeiquanLuo/stNet
+    - text: "R Note"
+      icon: fab fa-r-project
+      menu:
+        - text: "R Data type"
+          href: Note/Note-Data_type.html
+        - text: "Lazy Data: tibble"
+          href: Note/Note-tibble.html
+        - text: "Data Wrangling: dplyr"
+          href: Note/Note-dplyr.html
+        - text: "Data Wrangling: plyr"
+          href: Note/Note-plyr.html
+        - text: "Data Wrangling: purrr"
+          href: Note/Note-purrr.html
+        - text: "Data Visualization: ggplot2"
+          href: Note/Note-ggplot2.html
+        - text: "Regular Expression: stringr"
+          href: Note/Note-stringr.html
+        - text: "Functional Programming: purrr"
+          href: Note/Note-FunctionalProgramming.html
+        - text: "Package Development: devtools"
+          href: Note/Note-devtools.html
+        - text: "Dynamic Documents: rmarkdown"
+          href: Note/Note-rmarkdown.html
+        - text: "Web Applications: Shiny"
+          href: Note/Note-Shiny.html
+        - text: "Image Processing: magick"
+          href: Note/Note-magick.html
+    - text: "Insight"
+      icon: fas fa-lightbulb
+      menu:
+        - text: "Weekly Weighted Index"
+          href: 
     - text: "Miscellaneous"
       icon: fas fa-book
       menu:
         - text: "Design of Experiment"
           href: Note/Note-ExperimentDesign.html
-        - text: "Image Processing: magick"
-          href: Note/Note-magick.html
         - text: "Version Control: Git"
           href: Note/Note-git.html
-        - text: "Blog: Data type"
-          href: Note/Note-Data_type.html
         - text: "Blog: Machine Learning Workflow"
           href: Note/Machine Learning Workflow.png
-        - text: "Blog: Functional Programming"
-          href: Note/Note-FunctionalProgramming.html
     - text: "Résumé"
       icon: fa fa-info
       href: Resume_090120.pdf
