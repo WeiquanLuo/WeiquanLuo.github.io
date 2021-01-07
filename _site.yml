@@ -86,7 +86,9 @@ navbar:
     - text: "Insight"
       icon: fas fa-lightbulb
       menu:
-        - text: "Weekly Weighted Index"
+        - text: "Sales Analysis: Weekly Weighted Index"
+          href: 
+        - text: "Customer Value: RFM Anlysis"
           href: 
     - text: "Miscellaneous"
       icon: fas fa-book
@@ -97,6 +99,8 @@ navbar:
           href: Note/Note-git.html
         - text: "Blog: Machine Learning Workflow"
           href: Note/Machine Learning Workflow.png
+        - text: "Blog: Task Automation with python"
+          href: 
     - text: "Résumé"
       icon: fa fa-info
       href: Resume_090120.pdf
