@@ -88,7 +88,13 @@ navbar:
       menu:
         - text: "Sales Analysis: Weekly Weighted Index"
           href: 
+        - text: "Vital few and Trivial many: ABC analysis"
+          href: 
+        - text: "Decision Making: BCG Matrix"
+          href: 
         - text: "Customer Value: RFM Anlysis"
+          href: 
+        - text: "Operational Efficiency: DuPont Analysis"
           href: 
     - text: "Miscellaneous"
       icon: fas fa-book
