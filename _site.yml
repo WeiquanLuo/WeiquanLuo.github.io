@@ -89,7 +89,7 @@ navbar:
         - text: "Sales Analysis: Weekly Weighted Index"
           href: 
         - text: "Vital few and Trivial many: ABC analysis"
-          href: 
+          href: https://public.tableau.com/profile/weiquan.luo#!/vizhome/Supermarketdata_16103492580340/ProfitOverview
         - text: "Decision Making: BCG Matrix"
           href: 
         - text: "Customer Value: RFM Analysis"
