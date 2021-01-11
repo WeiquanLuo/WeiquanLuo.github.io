@@ -95,7 +95,7 @@ navbar:
         - text: "Customer Value: RFM Analysis"
           href: 
         - text: "Operational Efficiency: DuPont Analysis"
-          href: 
+          href: https://public.tableau.com/profile/weiquan.luo#!/vizhome/DuPontAnalysisofCoca-ColaCo/DuPontAnalysis?publish=yes
     - text: "Miscellaneous"
       icon: fas fa-book
       menu:
