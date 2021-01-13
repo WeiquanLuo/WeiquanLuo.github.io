@@ -6,6 +6,8 @@ output:
        in_header: GA_Script.html
 ---
 
+
+
 <style type="text/css">
 
 h1.title {
@@ -16,8 +18,19 @@ h1.title {
 
 </style>
 
+
+<br />
+
+
 <center>
-I am a graduate student at [Iowa State University](https://www.abe.iastate.edu), pursuing an MS in Agriculture Biosystem Engineering. I am currently working with [Dr. Amy Kaleita-forbes](https://www.abe.iastate.edu/amy-kaleita) and [Dr. Adina Howe](https://www.abe.iastate.edu/adina-howe) on research in FEW analysis using Bayesian networks. I am also interested in empirical analysis to engineering problem. Contact me at weiquanl@iastate.edu or find my latest projects on GitHub.
+
+**Personal Profile**: 4+ years of researcher experience building complete data pipeline and executing statistical techniques and machine learning models. Ability to develop innovative and practical solutions to complex problems without direct technical supervision. 
+
+**Long Term Goal**: To become a *Data Scientist* in delivering business insight with analytical technique. 
+
+
+
+Contact me at weiquan.luo1221@gmail.com or find my latest projects on GitHub.
 </center>
 
 
