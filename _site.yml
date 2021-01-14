@@ -44,9 +44,9 @@ navbar:
       menu:
         - text: "SE-ResNet: Cornell Birdcall Identification"
           href: https://www.kaggle.com/weiquanl/se-resnet-birdsong
-        - text: "Beating the Odds: Success Strategies for At-Risk Students"
+        - text: "Tree-based Model: Success Strategies for At-Risk Students"
           href: Project/Mapworks poster.pdf
-        - text: "Meta‐Analysis: Crop Yield and Nitrous Oxide Emissions following Swine Manure Application"
+        - text: "Meta Analysis: Crop Yield and Nitrous Oxide Emissions following Swine Manure Application"
           href: https://doi.org/10.2134/ael2019.07.0024
         - text: "Fama French Five Factor Asset Pricing Model: SP500"
           href: Note/SP500_CAPM_ff5.html
