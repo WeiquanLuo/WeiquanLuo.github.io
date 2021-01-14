@@ -48,7 +48,7 @@ navbar:
           href: Project/Mapworks poster.pdf
         - text: "Meta Analysis: Crop Yield and Nitrous Oxide Emissions following Swine Manure Application"
           href: https://doi.org/10.2134/ael2019.07.0024
-        - text: "Fama French Five Factor Asset Pricing Model: SP500"
+        - text: "Rolling Regression: Fama French Five Factor Asset Pricing Model on SP500"
           href: Note/SP500_CAPM_ff5.html
         - text: "Monte Carlo Simulation: Genshin Impact wishes"
           href: Project/Simulation of Genshin Impact wishes.html
