@@ -42,7 +42,7 @@ navbar:
     - text: "Project"
       icon: fab fa-r-project
       menu:
-        - text: "SE-ResNet: Cornell Birdcall Identification"
+        - text: "Squeeze-and-Excitation ResNet: Cornell Birdcall Identification"
           href: https://www.kaggle.com/weiquanl/se-resnet-birdsong
         - text: "Tree-based Model: Success Strategies for At-Risk Students"
           href: Project/Mapworks poster.pdf
