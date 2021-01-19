@@ -29,7 +29,7 @@ h1.title {
 **Long Term Goal**: To become a *Data Scientist* in delivering business insight with analytical technique. 
 
 <br />
-![My knowledge Graph](img/My knowledge Graph.png)
+![MyknowledgeGraph](img/My knowledge Graph.png)
 <br />
 
 Contact me at weiquan.luo1221@gmail.com or find my latest projects on GitHub.
