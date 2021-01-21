@@ -87,6 +87,8 @@ navbar:
           href: Note/Note-Shiny.html
         - text: "Image Processing: magick"
           href: Note/Note-magick.html
+        - text: "Optimization"
+          href: Note/Note-Optimization.html
     - text: "Insight"
       icon: fas fa-lightbulb
       menu:
