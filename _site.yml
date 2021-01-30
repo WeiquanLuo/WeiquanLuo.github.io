@@ -5,9 +5,6 @@ google_analytics: "UA-148890413-1"
 navbar:
   title: "W. Luo's Webpage"
   left:
-    - text: "Home"
-      icon: fa fa-home
-      href: index.html
     - text: "Modeling"
       icon: fab fa-cloudsmith
       menu:
