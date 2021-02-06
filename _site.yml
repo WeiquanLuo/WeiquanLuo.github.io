@@ -34,8 +34,6 @@ navbar:
           href: Note/NA.html
         - text: "Graphical Model: Social network analysis"
           href: Note/Note-igraph.html
-        - text: "Probabilistic Graphical Model: Bayesian Network"
-          href: Note/Note-bnlearn.html
     - text: "Project"
       icon: fab fa-r-project
       menu:
