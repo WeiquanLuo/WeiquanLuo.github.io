@@ -58,8 +58,8 @@ navbar:
     - text: "R Note"
       icon: fab fa-r-project
       menu:
-        - text: "Sample Size: A/B test"
-          href: Note/Note-ABtest.html
+        - text: "Sample Size: A/B/n Testing"
+          href: Note/Note-ABnTesting.html
         - text: "R Data type"
           href: Note/Note-Data_type.html
         - text: "Lazy Data: tibble"
