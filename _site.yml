@@ -55,6 +55,8 @@ navbar:
           href: https://github.com/WeiquanLuo/rivertopo
         - text: "R package: stNet"
           href: https://github.com/WeiquanLuo/stNet
+        - text: "Engineering design: Balance"
+          href: Project/Note-Balance.html
     - text: "R Note"
       icon: fab fa-r-project
       menu:
