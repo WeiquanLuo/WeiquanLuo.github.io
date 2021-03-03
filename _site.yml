@@ -34,7 +34,7 @@ navbar:
           href: Note/NA.html
         - text: "Graphical Model: Social network analysis"
           href: Note/Note-igraph.html
-        - text: "Optimization: GradientDescent"
+        - text: "Optimization: Gradient Descent"
           href: Note/Note-GradientDescent.html
     - text: "Project"
       icon: fab fa-r-project
