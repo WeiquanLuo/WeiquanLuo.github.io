@@ -20,6 +20,8 @@ navbar:
           href: Note/NA.html
         - text: "Statistical Model: Meta-Analysis (comming up)"
           href: Note/NA.html
+        - text: "Machine Learning: Loss function"
+          href: Note/Note-Lossfunction.html
         - text: "Machine Learning: Classification"
           href: Note/Note-Classification.html
         - text: "Machine Learning: Clustering"
