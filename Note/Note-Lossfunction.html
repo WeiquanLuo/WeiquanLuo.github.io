@@ -297,7 +297,7 @@ b=0>c?a.href:a.href.substr(0,c)}return b},je=function(a){var b=I.createElement("
 e=je(a),f=a.split(/[?#]/)[0],h=e.search,k=e.hash;"?"===h[0]&&(h=h.substring(1));"#"===k[0]&&(k=k.substring(1));h=c(h);k=c(k);""!==h&&(h="?"+h);""!==k&&(k="#"+k);var l=""+f+h+k;"/"===l[l.length-1]&&(l=l.substring(0,l.length-1));return l};var le=new RegExp(/[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}/i),me=new RegExp(/support|noreply/i),ne=["SCRIPT","IMG","SVG","PATH","BR"],oe=["BR"];function pe(a){var b;if(a===I.body)b="body";else{var c;if(a.id)c="#"+a.id;else{var d;if(a.parentElement){var e;a:{var f=a.parentElement;if(f){for(var h=0;h<f.childElementCount;h++)if(f.children[h]===a){e=h+1;break a}e=-1}else e=1}d=pe(a.parentElement)+">:nth-child("+e+")"}else d="";c=d}b=c}return b}
 var se=function(){var a=!0;var b=a,c;var d=[],e=I.body;if(e){for(var f=e.querySelectorAll("*"),h=0;h<f.length&&1E4>h;h++){var k=f[h];if(!(0<=ne.indexOf(k.tagName.toUpperCase()))){for(var l=!1,n=0;n<k.childElementCount&&1E4>n;n++)if(!(0<=oe.indexOf(k.children[n].tagName.toUpperCase()))){l=!0;break}l||d.push(k)}}c={elements:d,status:1E4<f.length?"2":"1"}}else c=
 {elements:d,status:"4"};for(var q=c,p=q.elements,r=[],u=0;u<p.length;u++){var t=p[u],v=t.textContent;t.value&&(v=t.value);if(v){var x=v.match(le);if(x){var y=x[0],w;if(G.location){var z=ge(G.location,"host",!0);w=0<=y.toLowerCase().indexOf(z)}else w=!1;w||r.push({element:t,Ic:y})}}}var A;for(var B=[],F=10<r.length?"3":q.status,E=0;E<r.length&&
-10>E;E++){var H=r[E].element,M=r[E].Ic,N=!1;B.push({Ic:M,querySelector:pe(H),tagName:H.tagName,isVisible:!Ud(H),type:1,xc:!!N})}return{elements:B,status:F}};var Ge={},L=null,He=Math.random();Ge.D="UA-148890413-1";Ge.ic="2o0";Ge.Eh="";Ge.zf="ChAIgKeCggYQnZWClM3ZvYoyEicAtP3uJSW/56ZDB+yRaH/5v1iUxyYz9ZJwVgRk2TIKsRsSdOuyWcoaAhsf";var Ie={__cl:!0,__ecl:!0,__ehl:!0,__evl:!0,__fal:!0,__fil:!0,__fsl:!0,__hl:!0,__jel:!0,__lcl:!0,__sdl:!0,__tl:!0,__ytl:!0},Je={__paused:!0,__tg:!0},Ke;for(Ke in Ie)Ie.hasOwnProperty(Ke)&&(Je[Ke]=!0);var Le="www.googletagmanager.com/gtm.js";Le="www.googletagmanager.com/gtag/js";
+10>E;E++){var H=r[E].element,M=r[E].Ic,N=!1;B.push({Ic:M,querySelector:pe(H),tagName:H.tagName,isVisible:!Ud(H),type:1,xc:!!N})}return{elements:B,status:F}};var Ge={},L=null,He=Math.random();Ge.D="UA-148890413-1";Ge.ic="2o0";Ge.Eh="";Ge.zf="ChAIgKeCggYQnZWClM3ZvYoyEicAtP3uJQ9l+rrIOXmDDBU77EHVd7FhtTTtHgFIR9t2caw0VDCuYa4aArNg";var Ie={__cl:!0,__ecl:!0,__ehl:!0,__evl:!0,__fal:!0,__fil:!0,__fsl:!0,__hl:!0,__jel:!0,__lcl:!0,__sdl:!0,__tl:!0,__ytl:!0},Je={__paused:!0,__tg:!0},Ke;for(Ke in Ie)Ie.hasOwnProperty(Ke)&&(Je[Ke]=!0);var Le="www.googletagmanager.com/gtm.js";Le="www.googletagmanager.com/gtag/js";
 var Me=Le,Ne=Ua(""),Oe=null,Pe=null,Qe="//www.googletagmanager.com/a?id="+Ge.D+"&cv=1",Re={},Se={},Te=function(){var a=L.sequence||1;L.sequence=a+1;return a};var Ue={},Ve=new La,We={},Xe={},$e={name:"dataLayer",set:function(a,b){m(hb(a,b),We);Ye()},get:function(a){return Ze(a,2)},reset:function(){Ve=new La;We={};Ye()}},Ze=function(a,b){return 2!=b?Ve.get(a):af(a)},af=function(a){var b,c=a.split(".");b=b||[];for(var d=We,e=0;e<c.length;e++){if(null===d)return!1;if(void 0===d)break;d=d[c[e]];if(-1!==Ha(b,d))return}return d},bf=function(a,b){Xe.hasOwnProperty(a)||(Ve.set(a,b),m(hb(a,b),We),Ye())},Ye=function(a){Na(Xe,function(b,c){Ve.set(b,c);m(hb(b,
 void 0),We);m(hb(b,c),We);a&&delete Xe[b]})},cf=function(a,b,c){Ue[a]=Ue[a]||{};var d=1!==c?af(b):Ve.get(b);"array"===kb(d)||"object"===kb(d)?Ue[a][b]=m(d):Ue[a][b]=d},df=function(a,b){if(Ue[a])return Ue[a][b]},ef=function(a,b){Ue[a]&&delete Ue[a][b]};var hf={},jf=function(a,b){if(G._gtmexpgrp&&G._gtmexpgrp.hasOwnProperty(a))return G._gtmexpgrp[a];void 0===hf[a]&&(hf[a]=Math.floor(Math.random()*b));return hf[a]};var kf=function(a){var b=1,c,d,e;if(a)for(b=0,d=a.length-1;0<=d;d--)e=a.charCodeAt(d),b=(b<<6&268435455)+e+(e<<14),c=b&266338304,b=0!=c?b^c>>21:b;return b};function lf(a,b,c){for(var d=[],e=b.split(";"),f=0;f<e.length;f++){var h=e[f].split("="),k=h[0].replace(/^\s*|\s*$/g,"");if(k&&k==a){var l=h.slice(1).join("=").replace(/^\s*|\s*$/g,"");l&&c&&(l=decodeURIComponent(l));d.push(l)}}return d};var nf=function(a,b,c,d){return mf(d)?lf(a,String(b||document.cookie),c):[]},tf=function(a,b,c,d,e){if(mf(e)){var f=of(a,d,e);if(1===f.length)return f[0].id;if(0!==f.length){f=sf(f,function(h){return h.qc},b);if(1===f.length)return f[0].id;f=sf(f,function(h){return h.Lb},c);return f[0]?f[0].id:void 0}}};function uf(a,b,c,d){var e=document.cookie;document.cookie=a;var f=document.cookie;return e!=f||void 0!=c&&0<=nf(b,f,!1,d).indexOf(c)}
 var yf=function(a,b,c){function d(u,t,v){if(null==v)return delete h[t],u;h[t]=v;return u+"; "+t+"="+v}function e(u,t){if(null==t)return delete h[t],u;h[t]=!0;return u+"; "+t}if(!mf(c.va))return 2;var f;void 0==b?f=a+"=deleted; expires="+(new Date(0)).toUTCString():(c.encode&&(b=encodeURIComponent(b)),b=vf(b),f=a+"="+b);var h={};f=d(f,"path",c.path);var k;c.expires instanceof Date?k=c.expires.toUTCString():null!=c.expires&&(k=""+c.expires);f=d(f,"expires",k);f=d(f,"max-age",c.Oh);f=d(f,"samesite",
@@ -1035,24 +1035,30 @@ equivalent to
 </thead>
 <tbody>
 <tr class="odd">
-<td>Mean Absolute Error Loss</td>
+<td>L1 loss, or Mean Absolute Error Loss</td>
 <td><a href="https://www.real-statistics.com/distribution-fitting/distribution-fitting-via-maximum-likelihood/fitting-laplace-parameters-via-mle/">Laplace</a></td>
 <td><span class="math inline">\(|\hat{y_{i}} - y_{i}|\)</span></td>
-<td>Regression with Least absolute deviations (LAD) Error</td>
+<td>Regression with Least absolute deviations (LAD) Error. Minimize the absolute distance. pro: less likely to explode gradient at large x than L2 loss. con: first derivate is constant result the loss is bounce around the optimal point and difficult to converge.</td>
 </tr>
 <tr class="even">
-<td>Mean Squared error(MSE) loss, Quadratic Loss</td>
+<td>L2 loss, or Mean Squared error(MSE) loss, Quadratic Loss</td>
 <td><a href="https://www.jessicayung.com/mse-as-maximum-likelihood/">Gaussian</a></td>
 <td><span class="math inline">\((\hat{y_{i}}- y_{i})^2\)</span></td>
-<td>Regression with Ordinary Least Squares (OLS) Error</td>
+<td>Regression with Ordinary Least Squares (OLS) Error. Minimize the absolute distance. pro: smoonth gradient at small x. con: easy to explode gradient at large x</td>
 </tr>
 <tr class="odd">
+<td>Smooth L1</td>
+<td>—-</td>
+<td><span class="math inline">\(\begin{cases} 0.5(\hat{y_{i}}- y_{i})^2 \ if \ |\hat{y_{i}}- y_{i}|&lt;1 \\ |\hat{y_{i}}- y_{i}|-0.5 \ otherwise \end{cases}\)</span></td>
+<td>It has the advanages of L1 and L2 loss.</td>
+</tr>
+<tr class="even">
 <td>Huber Loss</td>
 <td>-</td>
 <td><span class="math inline">\(\begin{cases} \frac{1}{2} (\hat{y_{i}}-y_{i})^2 \ for \ |\hat{y_{i}}-y_{i}| \leq \delta \\ \delta |\hat{y_{i}}-y_{i}|- \frac{1}{2} \delta^2 \ otherwise \end{cases}\)</span></td>
 <td>regression. become MSE when <span class="math inline">\(\delta \rightarrow 0\)</span>, become MAE when <span class="math inline">\(\delta \rightarrow \infty\)</span></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>—–</td>
 <td><a href="https://en.wikipedia.org/wiki/Poisson_regression#Maximum_likelihood-based_parameter_estimation">Poisson</a></td>
 <td><span class="math inline">\(y_i \hat{y_i} - e^{y_i \hat{y_i}}\)</span></td>
@@ -1093,6 +1099,18 @@ equivalent to
 <td>probit regression, binary classification</td>
 </tr>
 <tr class="odd">
+<td>perceptron loss</td>
+<td>-</td>
+<td><span class="math inline">\(I(|\hat{y_{i}} - y_{i}| \geq t ) = \begin{cases} 1,\ |\hat{y_{i}} - y_{i}| \geq t \\ 0,\ |\hat{y_{i}} - y_{i}| &lt; t \end{cases}\)</span></td>
+<td>soft/hard-margin SVM</td>
+</tr>
+<tr class="even">
+<td>hinge loss</td>
+<td>-</td>
+<td><span class="math inline">\(\sum_{j \neq i} \max(0,1- y_{i} \cdot \hat{y_{i}}_j), \ y_{i} = \pm1\)</span></td>
+<td>Multiclass classification, Support vector machine (SVM) with soft-margin non-linearly separable problem</td>
+</tr>
+<tr class="odd">
 <td>Logistic-loss (logit + sigmoid function + Cross-entropy loss)</td>
 <td><a href="https://www.projectrhea.org/rhea/index.php/MLE_Examples:_Binomial_and_Poisson_Distributions_OldKiwi">Bernoulli</a></td>
 <td><span class="math inline">\(-ln( \sigma(x_i \omega) )\)</span>  <span class="math inline">\(= -[I_{positive}(y_i) ln( \sigma(x_i \omega) ) + (1-I_{positive}(y_i)) ln(1- \sigma(x_i \omega) )]\)</span> where sigmoid function <span class="math inline">\(\sigma(x_i \omega) = \frac{1}{1+e^{-x \omega}}\)</span>, <span class="math inline">\(I_{positive}(y_i) = \begin{cases} 1 \ if class = positive \\ 0 \ if \ class \neq positive \end{cases}\)</span></td>
@@ -1107,20 +1125,56 @@ equivalent to
 <tr class="odd">
 <td>softmax loss, softmax cross-entropy loss (logit + softmax function + Cross-entropy loss)</td>
 <td><a href="https://www.cimat.mx/~ponciano/TCR/multinomialmodels.pdf">multinomial</a></td>
-<td><span class="math inline">\(-ln(\sigma(x_i \omega))\)</span>, where softmax function <span class="math inline">\(\sigma(x_i \omega) = \frac{e^{x_i \omega I_{correct}(y_i)}}{\sum_{j \in Classes} e^{(x_i \omega)_j}}\)</span></td>
+<td><span class="math inline">\(-ln(\sigma(x_i \omega))\)</span>, where softmax function <span class="math inline">\(\sigma(x_i \omega) = \frac{e^{x_i \omega \ I_{correct}(y_i)}}{\sum_{j \in Classes} e^{(x_i \omega)_j}}\)</span></td>
 <td>Multinomial logistic regression, Multiclass classification, Cross-entropy loss with softmax function</td>
 </tr>
 <tr class="even">
-<td>perceptron loss</td>
-<td>-</td>
-<td><span class="math inline">\(I(|\hat{y_{i}} - y_{i}| \geq t ) = \begin{cases} 1,\ |\hat{y_{i}} - y_{i}| \geq t \\ 0,\ |\hat{y_{i}} - y_{i}| &lt; t \end{cases}\)</span></td>
-<td>soft/hard-margin SVM</td>
+<td><a href="https://arxiv.org/pdf/1612.02295.pdf">Large-Margin Softmax Loss (L-softmax loss)</a></td>
+<td>—-</td>
+<td>Replace <span class="math inline">\(\omega x\)</span> with function of amplitude and angular in softmax loss</td>
+<td>An improvement of softmax loss on decision margin. Constrain decision margin using function of amplitude and angular, but do not disassociate so well because the class can be disassociated from two metrics. <a href="https://www.cnblogs.com/heguanyou/p/7503025.html">more</a></td>
 </tr>
 <tr class="odd">
-<td>hinge loss</td>
-<td>-</td>
-<td><span class="math inline">\(\sum_{j \neq i} \max(0,1- y_{i} \cdot \hat{y_{i}}_j), \ y_{i} = \pm1\)</span></td>
-<td>Multiclass classification, Support vector machine (SVM) with soft-margin non-linearly separable problem</td>
+<td><a href="https://arxiv.org/pdf/1704.08063.pdf">SphereFace: Angular Softmax Loss (A-Softmax loss)</a></td>
+<td>—-</td>
+<td></td>
+<td>An improvement of L-softmax. With normailization on <span class="math inline">\(\omega\)</span>, constrain decision margin using function of angular.</td>
+</tr>
+<tr class="even">
+<td><a href="https://arxiv.org/pdf/1703.09507.pdf">L2-constrained softmax loss</a></td>
+<td>—-</td>
+<td>Add L2-norm layer and scale layer before softmax loss <a href="https://arxiv.org/pdf/1704.06369.pdf">NormFace</a></td>
+<td>An improvement of softmax loss on difficult features. To avoid DCNN only learn the simple feature, it normalizing feature of all samples using L2 norm to equally learn the feature from difficult samples.</td>
+</tr>
+<tr class="odd">
+<td><a href="https://arxiv.org/pdf/1801.09414.pdf">CosFace: Large margin cosine loss for deep face recognition</a> or <a href="https://arxiv.org/pdf/1801.05599.pdf">Additive Margin Softmax for Face Verification (AM-softmax loss)</a></td>
+<td>—-</td>
+<td>———-</td>
+<td>An improvement of A-Softmax loss (SphereFace). Normailizing feature and maximizing additive cosine margin to maximize interclass variance and minimize intraclass variance <a href="https://arxiv.org/pdf/1801.09414.pdf">CosFace: Large margin cosine loss for deep face recognition</a></td>
+</tr>
+<tr class="even">
+<td><a href="https://arxiv.org/pdf/1801.07698.pdf">ArcFace: Additive Angular Margin Loss for Deep Face Recognition</a></td>
+<td>—-</td>
+<td>—-</td>
+<td>An improvement of A-Softmax loss (SphereFace). Normailizing feature and maximizing additive angular margin (more direct than cosine)to maximize interclass variance and minimize intraclass variance. <span class="math inline">\(\omega\)</span> is large</td>
+</tr>
+<tr class="odd">
+<td><a href="https://ieeexplore.ieee.org/document/1640964">Contrastive Loss</a></td>
+<td>—-</td>
+<td>———-</td>
+<td>Euclidean embedding. Increase the pairwise distance between samples in different classes, and decrease the distance betwwen sample in a same class. con: has a identical margin for all pair of sample in different classes.</td>
+</tr>
+<tr class="even">
+<td><a href="https://arxiv.org/pdf/1503.03832.pdf">triplet loss</a></td>
+<td>—-</td>
+<td>———-</td>
+<td>Euclidean embedding. An improvement of Contrastive Loss. Increase the relative intraclass distance, but do not consider the compactness .</td>
+</tr>
+<tr class="odd">
+<td><a href="http://ydwen.github.io/papers/WenECCV16.pdf">center loss</a></td>
+<td>—-</td>
+<td><span class="math inline">\(\ell(\hat{y_{i}}, y_{i})_{softmax} + \lambda (x_i - C_{yi})^2\)</span></td>
+<td>Euclidean embedding. An improvement of Contrastive Loss. Minimize the absolute intraclass distance. con: The L2 loss can be easily affected by outlines within a class. L2 loss has higher computation complexity and requires more computation power.</td>
 </tr>
 <tr class="even">
 <td>exponential loss</td>
