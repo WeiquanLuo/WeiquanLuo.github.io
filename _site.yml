@@ -20,6 +20,8 @@ navbar:
           href: Note/NA.html
         - text: "Statistical Model: Meta-Analysis (comming up)"
           href: Note/NA.html
+        - text: "Machine Learning: Gradient Descent"
+          href: Note/Note-GradientDescent.html
         - text: "Machine Learning: Loss function"
           href: Note/Note-Lossfunction.html
         - text: "Machine Learning: Classification"
@@ -36,8 +38,6 @@ navbar:
           href: Note/NA.html
         - text: "Graphical Model: Social network analysis"
           href: Note/Note-igraph.html
-        - text: "Optimization: Gradient Descent"
-          href: Note/Note-GradientDescent.html
     - text: "Project"
       icon: fab fa-r-project
       menu:
