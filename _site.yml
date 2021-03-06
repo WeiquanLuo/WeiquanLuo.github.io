@@ -14,12 +14,8 @@ navbar:
           href: Note/Note-LinearRegression.html
         - text: "Statistical Model: Linear Mixed-effect Regression"
           href: Note/Note-LMM.html
-        - text: "Statistical Model: Generalized Additive Models (imcompleted)"
+        - text: "Statistical Model: Generalized Additive Models"
           href: Note/Note-gam.html
-        - text: "Statistical Model: Time Series Analysis (comming up)"
-          href: Note/NA.html
-        - text: "Statistical Model: Meta-Analysis (comming up)"
-          href: Note/NA.html
         - text: "Machine Learning: Gradient Descent"
           href: Note/Note-GradientDescent.html
         - text: "Machine Learning: Loss function"
@@ -32,12 +28,16 @@ navbar:
           href: Note/Note-SVM.html
         - text: "Machine Learning: Association Rule"
           href: Note/Note-AssociationRule.html
-        - text: "Machine Learning: Neural Network (comming up)"
-          href: Note/NA.html
-        - text: "Machine Learning: Gradient Boosting (comming up)"
-          href: Note/NA.html
         - text: "Graphical Model: Social network analysis"
           href: Note/Note-igraph.html
+        - text: "Statistical Model: Time Series Analysis"
+          href: 
+        - text: "Statistical Model: Meta-Analysis"
+          href: 
+        - text: "Machine Learning: Neural Network"
+          href: 
+        - text: "Machine Learning: Gradient Boosting"
+          href: 
     - text: "Project"
       icon: fab fa-r-project
       menu:
