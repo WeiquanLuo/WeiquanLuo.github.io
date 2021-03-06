@@ -115,7 +115,7 @@ navbar:
         - text: "Blog: Machine Learning Workflow"
           href: Note/Machine Learning Workflow.png
         - text: "Blog: Data Manipulation using Pandas"
-          href: Note-PandasDataManipulation.html
+          href: Note/Note-PandasDataManipulation.html
     - text: "Résumé"
       icon: fa fa-info
       href: Resume_WeiquanLuo_02242021.pdf
