@@ -61,36 +61,44 @@ navbar:
           href: https://github.com/WeiquanLuo/stNet
         - text: "Engineering design: Balance"
           href: Note/Note-Balance.html
-    - text: "R Note"
-      icon: fab fa-r-project
+    - text: "Study Note"
+      icon: fas fa-book
       menu:
-        - text: "R Data type"
-          href: Note/Note-Data_type.html
-        - text: "Lazy Data: tibble"
-          href: Note/Note-tibble.html
-        - text: "Data Wrangling: dplyr"
-          href: Note/Note-dplyr.html
-        - text: "Data Wrangling: plyr"
+        - text: "Controlled Experiment: A/B Testing"
+          href: Note/Note-ABnTesting.html
+        - text: "Design of Experiment"
+          href: Note/Note-ExperimentDesign.html
+        - text: "Data Wrangling: Pandas (python)"
+          href: Note/Note-PandasDataManipulation.html
+        - text: "Version Control: Git"
+          href: Note/Note-git.html
+        - text: "Data Wrangling: plyr (R)"
           href: Note/Note-plyr.html
-        - text: "Data Wrangling: purrr"
-          href: Note/Note-purrr.html
-        - text: "Data Visualization: ggplot2"
-          href: Note/Note-ggplot2.html
-        - text: "Regular Expression: stringr"
-          href: Note/Note-stringr.html
-        - text: "Functional Programming: purrr"
+        - text: "Functional Programming (R)"
           href: Note/Note-FunctionalProgramming.html
-        - text: "Package Development: devtools"
+        - text: "Data Wrangling: tidyverse/purrr (R)"
+          href: Tidyverse Note/Note-purrr.html
+        - text: "Data Visualization: tidyverse/ggplot2 (R)"
+          href: Note/Note-ggplot2.html
+        - text: "Regular Expression: tidyverse/stringr (R)"
+          href: Note/Note-stringr.html
+        - text: "Lazy Data: tidyverse/tibble (R)"
+          href: Note/Note-tibble.html
+        - text: "Data Wrangling: tidyverse/dplyr (R)"
+          href: Note/Note-dplyr.html
+        - text: "Data type (R)"
+          href: Note/Note-Data_type.html
+        - text: "Package Development: devtools (R)"
           href: Note/Note-devtools.html
-        - text: "Dynamic Documents: rmarkdown"
+        - text: "Dynamic Documents: rmarkdown  (R)"
           href: Note/Note-rmarkdown.html
-        - text: "Web Applications: Shiny"
+        - text: "Web Applications: Shiny (R)"
           href: Note/Note-Shiny.html
-        - text: "Image Processing: magick"
+        - text: "Image Processing: magick (R)"
           href: Note/Note-magick.html
-        - text: "Optimization"
+        - text: "Optimization (R)"
           href: Note/Note-Optimization.html
-    - text: "Insight"
+    - text: "BI Visualization"
       icon: fas fa-lightbulb
       menu:
         - text: "Sales Analysis: Weekly Weighted Index"
@@ -103,19 +111,6 @@ navbar:
           href: 
         - text: "Operational Efficiency: DuPont Analysis"
           href: https://public.tableau.com/profile/weiquan.luo#!/vizhome/DuPontAnalysisofCoca-ColaCo/DuPontAnalysis?publish=yes
-    - text: "Miscellaneous"
-      icon: fas fa-book
-      menu:
-        - text: "Controlled Experiment: A/B/n Testing"
-          href: Note/Note-ABnTesting.html
-        - text: "Design of Experiment"
-          href: Note/Note-ExperimentDesign.html
-        - text: "Version Control: Git"
-          href: Note/Note-git.html
-        - text: "Blog: Machine Learning Workflow"
-          href: Note/Machine Learning Workflow.png
-        - text: "Blog: Data Manipulation using Pandas"
-          href: Note/Note-PandasDataManipulation.html
     - text: "Résumé"
       icon: fa fa-info
       href: Resume_WeiquanLuo_02242021.pdf
