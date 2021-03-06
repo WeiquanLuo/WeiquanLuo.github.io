@@ -5,7 +5,30 @@ google_analytics: "UA-148890413-1"
 navbar:
   title: "W. Luo's Webpage"
   left:
-    - text: "Modeling"
+    - text: "Project"
+      icon: fab fa-r-project
+      menu:
+        - text: "Squeeze-and-Excitation ResNet: Cornell Birdcall Identification"
+          href: https://www.kaggle.com/weiquanl/se-resnet-birdsong
+        - text: "Tree-based Model: Success Strategies for At-Risk Students"
+          href: Project/Mapworks poster.pdf
+        - text: "Meta Analysis: Crop Yield and Nitrous Oxide Emissions following Swine Manure Application"
+          href: https://doi.org/10.2134/ael2019.07.0024
+        - text: "Rolling Regression: Fama French Five Factor Asset Pricing Model on SP500"
+          href: Note/SP500_CAPM_ff5.html
+        - text: "Monte Carlo Simulation: Genshin Impact wishes"
+          href: Project/Simulation of Genshin Impact wishes.html
+        - text: "Network Analysis: Instagram API Documentation structure"
+          href: Project/Hyperlink-Analysis.html
+        - text: "Linear regression and cluster: EIO-LCA Analysis"
+          href: https://github.com/WeiquanLuo/LCA-PetFoodSupplyChain
+        - text: "R package: rivertopo"
+          href: https://github.com/WeiquanLuo/rivertopo
+        - text: "R package: stNet"
+          href: https://github.com/WeiquanLuo/stNet
+        - text: "Engineering design: Balance"
+          href: Note/Note-Balance.html
+    - text: "Modeling note: "
       icon: fab fa-cloudsmith
       menu:
         - text: "Machine Learning: Gradient Descent"
@@ -38,30 +61,7 @@ navbar:
           href: 
         - text: "Machine Learning: Gradient Boosting"
           href: 
-    - text: "Project"
-      icon: fab fa-r-project
-      menu:
-        - text: "Squeeze-and-Excitation ResNet: Cornell Birdcall Identification"
-          href: https://www.kaggle.com/weiquanl/se-resnet-birdsong
-        - text: "Tree-based Model: Success Strategies for At-Risk Students"
-          href: Project/Mapworks poster.pdf
-        - text: "Meta Analysis: Crop Yield and Nitrous Oxide Emissions following Swine Manure Application"
-          href: https://doi.org/10.2134/ael2019.07.0024
-        - text: "Rolling Regression: Fama French Five Factor Asset Pricing Model on SP500"
-          href: Note/SP500_CAPM_ff5.html
-        - text: "Monte Carlo Simulation: Genshin Impact wishes"
-          href: Project/Simulation of Genshin Impact wishes.html
-        - text: "Network Analysis: Instagram API Documentation structure"
-          href: Project/Hyperlink-Analysis.html
-        - text: "Linear regression and cluster: EIO-LCA Analysis"
-          href: https://github.com/WeiquanLuo/LCA-PetFoodSupplyChain
-        - text: "R package: rivertopo"
-          href: https://github.com/WeiquanLuo/rivertopo
-        - text: "R package: stNet"
-          href: https://github.com/WeiquanLuo/stNet
-        - text: "Engineering design: Balance"
-          href: Note/Note-Balance.html
-    - text: "Study Note"
+    - text: "Miscellaneous note"
       icon: fas fa-book
       menu:
         - text: "Controlled Experiment: A/B Testing"
@@ -98,18 +98,9 @@ navbar:
           href: Note/Note-magick.html
         - text: "Optimization (R)"
           href: Note/Note-Optimization.html
-    - text: "BI Visualization"
-      icon: fas fa-lightbulb
-      menu:
-        - text: "Sales Analysis: Weekly Weighted Index"
-          href: 
-        - text: "Vital few and Trivial many: ABC analysis"
-          href: 
-        - text: "Decision Making: BCG Matrix"
+        - text: "Decision Making: BCG Matrix (Tableau)"
           href: https://public.tableau.com/profile/weiquan.luo#!/vizhome/Supermarketdata_16103492580340/ProfitOverview
-        - text: "Customer Value: RFM Analysis"
-          href: 
-        - text: "Operational Efficiency: DuPont Analysis"
+        - text: "Operational Efficiency: DuPont Analysis (Tableau)"
           href: https://public.tableau.com/profile/weiquan.luo#!/vizhome/DuPontAnalysisofCoca-ColaCo/DuPontAnalysis?publish=yes
     - text: "Résumé"
       icon: fa fa-info
