@@ -8,14 +8,6 @@ navbar:
     - text: "Modeling"
       icon: fab fa-cloudsmith
       menu:
-        - text: "Statistical Model: ANOVA"
-          href: Note/Note-ANOVA.html
-        - text: "Statistical Model: Linear Regression"
-          href: Note/Note-LinearRegression.html
-        - text: "Statistical Model: Linear Mixed-effect Regression"
-          href: Note/Note-LMM.html
-        - text: "Statistical Model: Generalized Additive Models"
-          href: Note/Note-gam.html
         - text: "Machine Learning: Gradient Descent"
           href: Note/Note-GradientDescent.html
         - text: "Machine Learning: Loss function"
@@ -28,6 +20,14 @@ navbar:
           href: Note/Note-SVM.html
         - text: "Machine Learning: Association Rule"
           href: Note/Note-AssociationRule.html
+        - text: "Statistical Model: ANOVA"
+          href: Note/Note-ANOVA.html
+        - text: "Statistical Model: Linear Regression"
+          href: Note/Note-LinearRegression.html
+        - text: "Statistical Model: Linear Mixed-effect Regression"
+          href: Note/Note-LMM.html
+        - text: "Statistical Model: Generalized Additive Models"
+          href: Note/Note-gam.html
         - text: "Graphical Model: Social network analysis"
           href: Note/Note-igraph.html
         - text: "Statistical Model: Time Series Analysis"
