@@ -69,7 +69,7 @@ navbar:
         - text: "Design of Experiment"
           href: Note/Note-ExperimentDesign.html
         - text: "Data Wrangling: Pandas (python)"
-          href: Note/Note-PandasDataManipulation.html
+          href: Note/Note-pandas.html
         - text: "Version Control (Git)"
           href: Note/Note-git.html
         - text: "Data Wrangling: plyr (R)"
