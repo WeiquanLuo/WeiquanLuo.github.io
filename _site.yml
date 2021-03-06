@@ -28,7 +28,7 @@ navbar:
           href: https://github.com/WeiquanLuo/stNet
         - text: "Engineering design: Balance"
           href: Note/Note-Balance.html
-    - text: "Modeling note: "
+    - text: "Modeling note"
       icon: fab fa-cloudsmith
       menu:
         - text: "Machine Learning: Gradient Descent"
