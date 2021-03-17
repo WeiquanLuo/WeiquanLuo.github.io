@@ -34,7 +34,7 @@ navbar:
         - text: "Machine Learning: Gradient Descent"
           href: Note/Note-GradientDescent.html
         - text: "Machine Learning: Loss function"
-          href: Note/Note-Lossfunction.html
+          href: Note/Note-DeepLearningLossFunction.html
         - text: "Machine Learning: Classification"
           href: Note/Note-Classification.html
         - text: "Machine Learning: Clustering"
@@ -60,7 +60,7 @@ navbar:
         - text: "Machine Learning: Neural Network"
           href: 
         - text: "Machine Learning: Gradient Boosting"
-          href: 
+          href: Note/Note-DeepLearningGradientDescent
     - text: "Miscellaneous note"
       icon: fas fa-book
       menu:
