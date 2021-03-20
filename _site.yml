@@ -8,8 +8,6 @@ navbar:
     - text: "Project"
       icon: fab fa-r-project
       menu:
-        - text: "Squeeze-and-Excitation ResNet: Cornell Birdcall Identification"
-          href: https://www.kaggle.com/weiquanl/se-resnet-birdsong
         - text: "Tree-based Model: Success Strategies for At-Risk Students"
           href: Project/Mapworks poster.pdf
         - text: "Meta Analysis: Crop Yield and Nitrous Oxide Emissions following Swine Manure Application"
