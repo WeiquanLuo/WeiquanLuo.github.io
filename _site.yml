@@ -41,6 +41,8 @@ navbar:
           href: Note/Note-SVM.html
         - text: "Machine Learning: Association Rule"
           href: Note/Note-AssociationRule.html
+        - text: "Statistical Model: Post-hoc Analysis"
+          href: Note/Note-PostHocAnalysis.html
         - text: "Statistical Model: ANOVA"
           href: Note/Note-ANOVA.html
         - text: "Statistical Model: Linear Regression"
