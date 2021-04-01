@@ -30,7 +30,7 @@ navbar:
       icon: fab fa-cloudsmith
       menu:
         - text: "Machine Learning: Architecture"
-          href: Note/Note-DeepLearningArchitecture
+          href: Note/Note-DeepLearningArchitecture.html
         - text: "Machine Learning: Gradient Descent"
           href: Note/Note-GradientDescent.html
         - text: "Machine Learning: Loss function"
