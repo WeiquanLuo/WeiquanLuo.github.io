@@ -35,6 +35,8 @@ navbar:
           href: Note/Note-GradientDescent.html
         - text: "Machine Learning: Loss function"
           href: Note/Note-DeepLearningLossFunction.html
+        - text: "Machine Learning: Ensemble Tree Model"
+          href: Note/Note-EnsembleTreeModel.html
         - text: "Machine Learning: Classification"
           href: Note/Note-Classification.html
         - text: "Machine Learning: Clustering"
