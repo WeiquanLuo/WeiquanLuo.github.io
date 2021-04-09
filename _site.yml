@@ -29,11 +29,11 @@ navbar:
     - text: "Modeling note"
       icon: fab fa-cloudsmith
       menu:
-        - text: "Machine Learning: Architecture"
+        - text: "Deep Learning: Architecture"
           href: Note/Note-DeepLearningArchitecture.html
-        - text: "Machine Learning: Gradient Descent"
-          href: Note/Note-GradientDescent.html
-        - text: "Machine Learning: Loss function"
+        - text: "Deep Learning: Gradient Descent"
+          href: Note/Note-DeepLearningGradientDescent.html
+        - text: "Deep Learning: Loss function"
           href: Note/Note-DeepLearningLossFunction.html
         - text: "Machine Learning: Ensemble Tree Model"
           href: Note/Note-EnsembleTreeModel.html
@@ -61,10 +61,6 @@ navbar:
           href: 
         - text: "Statistical Model: Meta-Analysis"
           href: 
-        - text: "Machine Learning: Neural Network"
-          href: 
-        - text: "Machine Learning: Gradient Boosting"
-          href: Note/Note-DeepLearningGradientDescent
     - text: "Miscellaneous note"
       icon: fas fa-book
       menu:
