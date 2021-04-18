@@ -29,6 +29,8 @@ navbar:
     - text: "Modeling note"
       icon: fab fa-cloudsmith
       menu:
+        - text: "Recommendation System: Matching algorithm"
+          href: Note/Note-RecommendationSysMatching.html
         - text: "Deep Learning: Architecture"
           href: Note/Note-DeepLearningArchitecture.html
         - text: "Deep Learning: Gradient Descent"
