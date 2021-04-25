@@ -31,10 +31,10 @@ navbar:
       menu:
         - text: "Recommendation System: Matching algorithm"
           href: Note/Note-RecommendationSysMatching.html
-        - text: "Deep Learning: Gradient Problems"
-          href: Note/Note-GradientProblem.html
         - text: "Deep Learning: Architecture"
           href: Note/Note-DeepLearningArchitecture.html
+        - text: "Deep Learning: Problems of Gradient"
+          href: Note/Note-GradientProblem.html
         - text: "Deep Learning: Gradient Descent"
           href: Note/Note-DeepLearningGradientDescent.html
         - text: "Deep Learning: Loss function"
