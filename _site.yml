@@ -31,7 +31,7 @@ navbar:
       menu:
         - text: "Recommendation System: Matching algorithm"
           href: Note/Note-RecommendationSysMatching.html
-        - text: "Deep Learning: Architecture"
+        - text: "Deep Learning: Classical architecture"
           href: Note/Note-DeepLearningArchitecture.html
         - text: "Deep Learning: Problems of Gradient"
           href: Note/Note-GradientProblem.html
@@ -70,6 +70,8 @@ navbar:
     - text: "Miscellaneous note"
       icon: fas fa-book
       menu:
+        - text: "Google Project Management Career Program Archive"
+          href: https://github.com/WeiquanLuo/Google-Project-Management
         - text: "Controlled Experiment: A/B Testing"
           href: Note/Note-ABnTesting.html
         - text: "Design of Experiment"
