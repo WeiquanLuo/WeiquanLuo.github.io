@@ -71,7 +71,7 @@ navbar:
       icon: fas fa-book
       menu:
         - text: "Google Project Management Career Program Archive"
-          href: https://github.com/WeiquanLuo/Google-Project-Management
+          href: https://github.com/WeiquanLuo/Google-Project-Management-Program-Archive
         - text: "Controlled Experiment: A/B Testing"
           href: Note/Note-ABnTesting.html
         - text: "Design of Experiment"
