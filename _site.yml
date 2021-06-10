@@ -70,6 +70,8 @@ navbar:
     - text: "Miscellaneous note"
       icon: fas fa-book
       menu:
+        - text: "Note: Software architecture"
+          href: Note/Note-Software architecture.pdf
         - text: "Google Project Management Career Program Archive"
           href: https://github.com/WeiquanLuo/Google-Project-Management-Program-Archive
         - text: "Controlled Experiment: A/B Testing"
