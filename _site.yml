@@ -30,7 +30,7 @@ navbar:
       icon: fab fa-cloudsmith
       menu:
         - text: "Recommendation System: Matching algorithm"
-          href: Note/Note-RecommendationSysMatching.html
+          href: Note/Note-RecSysMatching.html
         - text: "Deep Learning: Classical architecture"
           href: Note/Note-DeepLearningArchitecture.html
         - text: "Deep Learning: Problems of Gradient"
@@ -114,7 +114,7 @@ navbar:
           href: https://public.tableau.com/profile/weiquan.luo#!/vizhome/DuPontAnalysisofCoca-ColaCo/DuPontAnalysis?publish=yes
     - text: "Résumé"
       icon: fa fa-info
-      href: Resume_WeiquanLuo_02242021.pdf
+      href: WeiquanLuo_Resume.pdf
   right:
     - text: "Repo"
       icon: fa fa-github
