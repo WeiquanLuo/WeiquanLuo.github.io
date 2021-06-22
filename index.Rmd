@@ -42,6 +42,10 @@ models to solve real-life problems. Ability to develop innovative and practical 
 
 <br />
 
+<br />
+
+**Starring** the [repo](https://github.com/WeiquanLuo/WeiquanLuo.github.io) if you find this tiny website useful, thanks~
+
 Contact me at weiquan.luo1221@gmail.com or find my latest projects on GitHub.
 </center>
 
