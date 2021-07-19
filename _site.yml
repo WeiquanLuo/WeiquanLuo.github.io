@@ -70,6 +70,8 @@ navbar:
     - text: "Miscellaneous note"
       icon: fas fa-book
       menu:
+        - text: "Business Analysis Research Framework"
+          href: Note/Note-BusinessAnalysisResearchFramework.html
         - text: "Software architecture"
           href: Note/Note-SoftwareArchitecture.html
         - text: "Google Project Management Career Program Archive"
