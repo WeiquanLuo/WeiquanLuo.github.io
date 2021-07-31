@@ -35,6 +35,8 @@ navbar:
           href: Note/Note-DeepLearningArchitecture.html
         - text: "Deep Learning: Problems of Gradient"
           href: Note/Note-GradientProblem.html
+        - text: "Deep Learning: Attention mechanism"
+          href: Note/Note-DeepLearningAttention.html
         - text: "Deep Learning: Keras computational graph"
           href: Note/Note_kerasComputationalGraph.html
         - text: "Deep Learning: Gradient Descent"
