@@ -31,30 +31,32 @@ navbar:
       menu:
         - text: "Recommendation System: Matching algorithm"
           href: Note/Note-RecSysMatching.html
-        - text: "Deep Learning: Classical architecture"
-          href: Note/Note-DeepLearningArchitecture.html
-        - text: "Deep Learning: Problems of Gradient"
-          href: Note/Note-GradientProblem.html
+        - text: "Deep Learning: Feature engineering for structural data"
+          href: Note/Note-DeepLearningFeatureEngineering.html
         - text: "Deep Learning: Attention mechanism"
           href: Note/Note-DeepLearningAttention.html
-        - text: "Deep Learning: Keras computational graph"
-          href: Note/Note_kerasComputationalGraph.html
+        - text: "Deep Learning: Problems of Gradient"
+          href: Note/Note-GradientProblem.html
         - text: "Deep Learning: Gradient Descent"
           href: Note/Note-DeepLearningGradientDescent.html
         - text: "Deep Learning: Loss function"
           href: Note/Note-DeepLearningLossFunction.html
+        - text: "Deep Learning: Keras computational graph"
+          href: Note/Note-DeepLearningkerasComputationalGraph.html
+        - text: "Deep Learning: Classical architecture"
+          href: Note/Note-DeepLearningArchitecture.html
         - text: "Machine Learning: Manifold Learning"
           href: Note/Note-DimentionReduction.html
         - text: "Machine Learning: Ensemble Tree Model"
           href: Note/Note-EnsembleTreeModel.html
-        - text: "Machine Learning: Classification"
-          href: Note/Note-Classification.html
         - text: "Machine Learning: Clustering"
           href: Note/Note-Clustering.html
         - text: "Machine Learning: Support Vector Machine"
           href: Note/Note-SVM.html
         - text: "Machine Learning: Association Rule"
           href: Note/Note-AssociationRule.html
+        - text: "Machine Learning: Classification"
+          href: Note/Note-Classification.html
         - text: "Statistical Model: Post-hoc Analysis"
           href: Note/Note-PostHocAnalysis.html
         - text: "Statistical Model: ANOVA"
