@@ -33,6 +33,12 @@ navbar:
           href: Note/Note-RecSysMatching.html
         - text: "Deep Learning: Feature engineering for structural data"
           href: Note/Note-DeepLearningFeatureEngineering.html
+        - text: "Deep Learning: Keras computational graph"
+          href: Note/Note-DeepLearningkerasComputationalGraph.html
+        - text: "Deep Learning: Data input pipeline"
+          href: Note/Note-DeepLearningDataPipeline.html
+        - text: "Deep Learning: Classical architecture"
+          href: Note/Note-DeepLearningArchitecture.html
         - text: "Deep Learning: Attention mechanism"
           href: Note/Note-DeepLearningAttention.html
         - text: "Deep Learning: Problems of Gradient"
@@ -41,10 +47,6 @@ navbar:
           href: Note/Note-DeepLearningGradientDescent.html
         - text: "Deep Learning: Loss function"
           href: Note/Note-DeepLearningLossFunction.html
-        - text: "Deep Learning: Keras computational graph"
-          href: Note/Note-DeepLearningkerasComputationalGraph.html
-        - text: "Deep Learning: Classical architecture"
-          href: Note/Note-DeepLearningArchitecture.html
         - text: "Machine Learning: Manifold Learning"
           href: Note/Note-DimentionReduction.html
         - text: "Machine Learning: Ensemble Tree Model"
