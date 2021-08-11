@@ -49,8 +49,8 @@ navbar:
           href: Note/Note-DeepLearningLossFunction.html
         - text: "Machine Learning: Manifold Learning"
           href: Note/Note-DimentionReduction.html
-        - text: "Machine Learning: Ensemble Tree Model"
-          href: Note/Note-EnsembleTreeModel.html
+        - text: "Machine Learning: Ensemble Learning"
+          href: Note/Note-EnsembleLearning.html
         - text: "Machine Learning: Clustering"
           href: Note/Note-Clustering.html
         - text: "Machine Learning: Support Vector Machine"
