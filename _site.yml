@@ -90,7 +90,7 @@ navbar:
           href: https://github.com/WeiquanLuo/Google-Project-Management-Program-Archive
         - text: "Controlled Experiment: A/B Testing"
           href: Note/Note-ABnTesting.html
-    - text: "Miscellaneous note"
+    - text: "Coding"
       icon: fas fa-book
       menu:
         - text: "Data Wrangling: Pandas (python)"
