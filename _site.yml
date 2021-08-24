@@ -26,11 +26,9 @@ navbar:
           href: https://github.com/WeiquanLuo/stNet
         - text: "Engineering design: Balance"
           href: Note/Note-Balance.html
-    - text: "Modeling note"
+    - text: "Theory"
       icon: fab fa-cloudsmith
       menu:
-        - text: "Recommendation System: Matching algorithm"
-          href: Note/Note-RecSysMatching.html
         - text: "Deep Learning: Feature engineering for structural data"
           href: Note/Note-DeepLearningFeatureEngineering.html
         - text: "Deep Learning: Keras computational graph"
@@ -61,26 +59,30 @@ navbar:
           href: Note/Note-AssociationRule.html
         - text: "Machine Learning: Classification"
           href: Note/Note-Classification.html
-        - text: "Statistical Model: Post-hoc Analysis"
-          href: Note/Note-PostHocAnalysis.html
-        - text: "Statistical Model: ANOVA"
-          href: Note/Note-ANOVA.html
-        - text: "Statistical Model: Linear Regression"
-          href: Note/Note-LinearRegression.html
-        - text: "Statistical Model: Linear Mixed-effect Regression"
+        - text: "Statistical Method: Linear Mixed-effect Regression"
           href: Note/Note-LinearMixedModel.html
-        - text: "Statistical Model: Generalized Additive Models"
+        - text: "Statistical Method: Generalized Additive Models"
           href: Note/Note-gam.html
+        - text: "Statistical Method: Post-hoc Analysis"
+          href: Note/Note-PostHocAnalysis.html
+        - text: "Statistical Method: ANOVA"
+          href: Note/Note-ANOVA.html
+        - text: "Statistical Method: Linear Regression"
+          href: Note/Note-LinearRegression.html
+        - text: "Statistical Method: Design of Experiment"
+          href: Note/Note-ExperimentDesign.html
         - text: "Graphical Model: Social network analysis"
           href: Note/Note-igraph.html
-        - text: "Statistical Model: Time Series Analysis"
+        - text: "Statistical Method: Time Series Analysis"
           href: 
-        - text: "Statistical Model: Meta-Analysis"
+        - text: "Statistical Method: Meta-Analysis"
           href: 
-    - text: "Miscellaneous note"
+    - text: "Industrial Applications"
       icon: fas fa-book
       menu:
-        - text: "Business Analysis Research Framework"
+        - text: "Recommendation System: Matching algorithm"
+          href: Note/Note-RecSysMatching.html
+        - text: "Business Analysis: Research Framework"
           href: Note/Note-BusinessAnalysisResearchFramework.html
         - text: "Software architecture"
           href: Note/Note-SoftwareArchitecture.html
@@ -88,8 +90,9 @@ navbar:
           href: https://github.com/WeiquanLuo/Google-Project-Management-Program-Archive
         - text: "Controlled Experiment: A/B Testing"
           href: Note/Note-ABnTesting.html
-        - text: "Design of Experiment"
-          href: Note/Note-ExperimentDesign.html
+    - text: "Miscellaneous note"
+      icon: fas fa-book
+      menu:
         - text: "Data Wrangling: Pandas (python)"
           href: Note/Note-pandas.html
         - text: "Version Control (Git)"
