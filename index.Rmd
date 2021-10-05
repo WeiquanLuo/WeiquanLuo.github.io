@@ -39,7 +39,15 @@ models to solve real-life problems. Ability to develop innovative and practical 
 **Long Term Goal**: To become a *Data Scientist* in delivering insight with analytical technique. 
 
 <br />
+<br />
+为什么不能用科学解释感情？让我们通过统计的假设检验来理解一下。
 
+原假设：想在一起  
+备择假设：不想在一起。
+
+在不能穷举的情况下，你不能靠举例子来证明一个命题是正确的，但是你可以靠举出一个反例来证明一个命题是错误的：他哪里哪里不好，所以不想在一起了。
+
+然而，你会因为一个正例子就认同原假设：他哪里哪里好，所以想在一起。
 <br />
 
 <br />
