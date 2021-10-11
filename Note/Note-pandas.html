@@ -11,7 +11,7 @@
 
 <meta name="author" content="Weiquan Luo" />
 
-<meta name="date" content="2021-10-09" />
+<meta name="date" content="2021-10-11" />
 
 <title>Note-Pandas Data Manipulation</title>
 
@@ -289,7 +289,7 @@ d){b({wc:c,qj:d})})})}catch(b){}},we=function(a){return-1!==["email","phone_numb
 b){a.remoteConfig=b;return a},Se=function(a,b){a.onSuccess=b;return a},Te=function(a,b){a.setContainerTypeLoaded=b;return a},Ue=function(a,b){a.getContainerTypeLoaded=b;return a},Ve=function(a,b){a.onFailure=b;return a};
 Fe.prototype.getWithConfig=function(a){if(void 0!==this.eventModel[a])return this.eventModel[a];if(void 0!==this.targetConfig[a])return this.targetConfig[a];if(void 0!==this.containerConfig[a])return this.containerConfig[a];if(void 0!==this.globalConfig[a])return this.globalConfig[a];if(void 0!==this.remoteConfig[a])return this.remoteConfig[a]};
 var We=function(a){function b(d){for(var e=Object.keys(d),f=0;f<e.length;++f)c[e[f]]=1}var c={};b(a.eventModel);b(a.targetConfig);b(a.containerConfig);b(a.globalConfig);return Object.keys(c)},Xe=function(a,b,c){function d(g){Rb(g)&&Ca(g,function(k,m){f=!0;e[k]=m})}var e={},f=!1;c&&1!==c||(d(a.remoteConfig[b]),d(a.globalConfig[b]),d(a.containerConfig[b]),d(a.targetConfig[b]));c&&2!==c||d(a.eventModel[b]);return f?e:void 0},Ye=function(a){var b=[M.Ub,M.We,M.Xe,M.Ye,M.Ze,M.$e,M.af],c={},d=!1,e=function(f){for(var g=
-0;g<b.length;g++)void 0!==f[b[g]]&&(c[b[g]]=f[b[g]],d=!0);return d};if(e(a.eventModel)||e(a.targetConfig)||e(a.containerConfig)||e(a.globalConfig))return c;e(a.remoteConfig);return c};var Ze={},P=null,$e=Math.random();Ze.I="UA-148890413-1";Ze.ad="a60";Ze.Pg="ChAI8PuEiwYQ2ZOwieujlpkzEicAnPRa7XqbMqbdxBl26k/ZLztDYiJyTPiov4B++NZtC7hGLwfCM/0aAsr5";var af={__cl:!0,__ecl:!0,__ehl:!0,__evl:!0,__fal:!0,__fil:!0,__fsl:!0,__hl:!0,__jel:!0,__lcl:!0,__sdl:!0,__tl:!0,__ytl:!0},bf={__paused:!0,__tg:!0},cf;for(cf in af)af.hasOwnProperty(cf)&&(bf[cf]=!0);var df="www.googletagmanager.com/gtm.js";
+0;g<b.length;g++)void 0!==f[b[g]]&&(c[b[g]]=f[b[g]],d=!0);return d};if(e(a.eventModel)||e(a.targetConfig)||e(a.containerConfig)||e(a.globalConfig))return c;e(a.remoteConfig);return c};var Ze={},P=null,$e=Math.random();Ze.I="UA-148890413-1";Ze.ad="a60";Ze.Pg="ChEI8J6KiwYQgMeh44mb4fmqARInAK5tsPTPLKRj996OxXG7XDcMYKKR5CHGm8NP6vdlY7SSv3vvufA+GgKJ0A\x3d\x3d";var af={__cl:!0,__ecl:!0,__ehl:!0,__evl:!0,__fal:!0,__fil:!0,__fsl:!0,__hl:!0,__jel:!0,__lcl:!0,__sdl:!0,__tl:!0,__ytl:!0},bf={__paused:!0,__tg:!0},cf;for(cf in af)af.hasOwnProperty(cf)&&(bf[cf]=!0);var df="www.googletagmanager.com/gtm.js";
 df="www.googletagmanager.com/gtag/js";var ef=df,ff=Ja(""),gf=null,hf=null,jf="https://www.googletagmanager.com/a?id="+Ze.I+"&cv=1",kf={},lf={},mf=function(){var a=P.sequence||1;P.sequence=a+1;return a};Ze.Og="";var nf="";
 Ze.Ib=nf;var of={},pf=new ya,qf={},rf={},uf={name:"dataLayer",set:function(a,b){H(Va(a,b),qf);sf()},get:function(a){return tf(a,2)},reset:function(){pf=new ya;qf={};sf()}},tf=function(a,b){return 2!=b?pf.get(a):vf(a)},vf=function(a){var b,c=a.split(".");b=b||[];for(var d=qf,e=0;e<c.length;e++){if(null===d)return!1;if(void 0===d)break;d=d[c[e]];if(-1!==va(b,d))return}return d},wf=function(a,b){rf.hasOwnProperty(a)||(pf.set(a,b),H(Va(a,b),qf),sf())},sf=function(a){Ca(rf,function(b,c){pf.set(b,c);H(Va(b,
 void 0),qf);H(Va(b,c),qf);a&&delete rf[b]})},yf=function(a,b,c){of[a]=of[a]||{};of[a][b]=xf(b,c)},xf=function(a,b){var c,d=1!==(void 0===b?2:b)?vf(a):pf.get(a);"array"===Pb(d)||"object"===Pb(d)?c=H(d):c=d;return c},zf=function(a,b){if(of[a])return of[a][b]},Af=function(a,b){of[a]&&delete of[a][b]};var Bf,Cf=!1,Df=function(a){if(!Cf){Cf=!0;Bf=Bf||{}}return Bf[a]};var Ef=function(a){if(B.hidden)return!0;var b=a.getBoundingClientRect();if(b.top==b.bottom||b.left==b.right||!l.getComputedStyle)return!0;var c=l.getComputedStyle(a,null);if("hidden"===c.visibility)return!0;for(var d=a,e=c;d;){if("none"===e.display)return!0;var f=e.opacity,g=e.filter;if(g){var k=g.indexOf("opacity(");0<=k&&(g=g.substring(k+8,g.indexOf(")",k)),"%"==g.charAt(g.length-1)&&(g=g.substring(0,g.length-1)),f=Math.min(g,f))}if(void 0!==f&&0>=f)return!0;(d=d.parentElement)&&(e=l.getComputedStyle(d,
@@ -639,7 +639,7 @@ summary {
 
 <h1 class="title toc-ignore">Note-Pandas Data Manipulation</h1>
 <h4 class="author">Weiquan Luo</h4>
-<h4 class="date">2021-10-09</h4>
+<h4 class="date">2021-10-11</h4>
 
 </div>
 
@@ -13752,6 +13752,14 @@ div#notebook {
 
 <pre><code>df.head(20)
 df.tail(20)</code></pre>
+</li>
+<li><p>check summary statistic</p>
+
+<pre><code>df.describe()</code></pre>
+</li>
+<li><p>check columns distribution</p>
+
+<pre><code>df.hist()</code></pre>
 </li>
 </ul>
 
