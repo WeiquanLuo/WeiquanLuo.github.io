@@ -93,7 +93,7 @@ navbar:
     - text: "Coding"
       icon: fas fa-book
       menu:
-        - text: "Data Wrangling: Pandas (python)"
+        - text: "Data Wrangling: Pandas (py)"
           href: Note/Note-pandas.html
         - text: "Version Control (Git)"
           href: Note/Note-git.html
@@ -117,6 +117,8 @@ navbar:
           href: Note/Note-devtools.html
         - text: "Dynamic Documents: rmarkdown  (R)"
           href: Note/Note-rmarkdown.html
+        - text: "Package Development & Dynamic Documents (py)"
+          href: Note/Note-PythonPackaging.html
         - text: "Web Applications: Shiny (R)"
           href: Note/Note-Shiny.html
         - text: "Image Processing: magick (R)"
