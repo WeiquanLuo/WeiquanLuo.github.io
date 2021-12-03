@@ -119,6 +119,8 @@ navbar:
           href: Note/Note-rmarkdown.html
         - text: "Package Development & Dynamic Documents (py)"
           href: Note/Note-PythonPackaging.html
+        - text: "python3 in rmarkdown: reticulate (py in R)"
+          href: Note/Note-reticulate.html
         - text: "Web Applications: Shiny (R)"
           href: Note/Note-Shiny.html
         - text: "Image Processing: magick (R)"
