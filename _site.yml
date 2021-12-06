@@ -102,7 +102,7 @@ navbar:
         - text: "Functional Programming (R)"
           href: Note/Note-FunctionalProgramming.html
         - text: "Data Wrangling: tidyverse/purrr (R)"
-          href: Tidyverse Note/Note-purrr.html
+          href: Note/Note-purrr.html
         - text: "Data Visualization: tidyverse/ggplot2 (R)"
           href: Note/Note-ggplot2.html
         - text: "Regular Expression: tidyverse/stringr (R)"
