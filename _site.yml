@@ -8,6 +8,8 @@ navbar:
     - text: "Project"
       icon: fab fa-r-project
       menu:
+        - text: "Study of COVID-19 Vaccine Hesitancy"
+          href: Project/Note-VaccineHesitancy.html
         - text: "Tree-based Model: Success Strategies for At-Risk Students"
           href: Project/Mapworks poster.pdf
         - text: "Meta Analysis: Crop Yield and Nitrous Oxide Emissions following Swine Manure Application"
