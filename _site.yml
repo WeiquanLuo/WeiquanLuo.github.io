@@ -8,6 +8,8 @@ navbar:
     - text: "Project"
       icon: fab fa-r-project
       menu:
+        - text: "Group-wise Image Registration: SyGN Experiment"
+          href: Project/Note-SyGNExperiment.html
         - text: "Study of COVID-19 Vaccine Hesitancy"
           href: Project/Note-VaccineHesitancy.html
         - text: "Tree-based Model: Success Strategies for At-Risk Students"
