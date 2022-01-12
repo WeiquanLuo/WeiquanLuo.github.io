@@ -8,13 +8,19 @@ navbar:
     - text: "Project"
       icon: fab fa-r-project
       menu:
+        - text: "Group-wise Image Registration: SyGN Experiment (PPT)"
+          href: Project/Exploring SyGN algorithm.pdf
         - text: "Group-wise Image Registration: SyGN Experiment"
           href: Project/Note-SyGNExperiment.html
+        - text: "Pairwise Image Registration: Review on Algorithm (PPT)"
+          href: Project/Review on Registration Algorithm.pdf
+        - text: "Neuroimage Homogenization: Removing variability (PPT)"
+          href: Project/Review on removing variability.pdf
         - text: "Study of COVID-19 Vaccine Hesitancy"
           href: Project/Note-VaccineHesitancy.html
-        - text: "Tree-based Model: Success Strategies for At-Risk Students"
+        - text: "Tree-based Model: Success Strategies for At-Risk Students (Poster)"
           href: Project/Mapworks poster.pdf
-        - text: "Meta Analysis: Crop Yield and Nitrous Oxide Emissions following Swine Manure Application"
+        - text: "Meta Analysis: Crop Yield and Nitrous Oxide Emissions following Swine Manure Application (Paper)"
           href: https://doi.org/10.2134/ael2019.07.0024
         - text: "Rolling Regression: Fama French Five Factor Asset Pricing Model on SP500"
           href: Note/SP500_CAPM_ff5.html
