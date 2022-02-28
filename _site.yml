@@ -103,6 +103,8 @@ navbar:
     - text: "Coding"
       icon: fas fa-book
       menu:
+        - text: "Function: Parameter Passing (py)"
+          href: Note/Note-ParameterPassing.html
         - text: "Data Wrangling: Pandas (py)"
           href: Note/Note-pandas.html
         - text: "Version Control (Git)"
