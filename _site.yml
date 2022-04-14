@@ -51,8 +51,8 @@ navbar:
           href: Note/Note-DeepLearningAttention.html
         - text: "Deep Learning: Problems of Gradient"
           href: Note/Note-GradientProblem.html
-        - text: "Deep Learning: Gradient Descent"
-          href: Note/Note-DeepLearningGradientDescent.html
+        - text: "Deep Learning: Batch Size"
+          href: Note/Note-DeepLearningBatchSize.html
         - text: "Deep Learning: Loss function"
           href: Note/Note-DeepLearningLossFunction.html
         - text: "Machine Learning: Machine Learning Experiement"
@@ -145,7 +145,7 @@ navbar:
           href: https://public.tableau.com/profile/weiquan.luo#!/vizhome/DuPontAnalysisofCoca-ColaCo/DuPontAnalysis?publish=yes
     - text: "Résumé"
       icon: fa fa-info
-      href: WeiquanLuo_Resume.pdf
+      href: Resume_WeiquanLuo.pdf
   right:
     - text: "Repo"
       icon: fa fa-github
