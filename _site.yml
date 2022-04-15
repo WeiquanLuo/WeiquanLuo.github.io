@@ -39,6 +39,8 @@ navbar:
     - text: "Theory"
       icon: fab fa-cloudsmith
       menu:
+        - text: "Deep Learning: Adaptive momentum optimizer"
+          href: Note/Note-Adam.html
         - text: "Deep Learning: Feature engineering for structural data"
           href: Note/Note-DeepLearningFeatureEngineering.html
         - text: "Deep Learning: Keras computational graph"
