@@ -5,8 +5,19 @@ google_analytics: "UA-148890413-1"
 navbar:
   title: "W. Luo's Webpage"
   left:
+    - text: "Publication"
+      icon: fa-solid fa-link
+      menu:
+        - text: "Linear regression and cluster: EIO-LCA Analysis"
+          href: https://github.com/WeiquanLuo/LCA-PetFoodSupplyChain
+        - text: "Label-Free Differentiation of Cancer and Non-Cancer Cells Based on Machine-Learning-Algorithm-Assisted Fast Raman Imaging (2022)"
+          href: https://doi.org/10.3390/bios12040250
+        - text: "Crop Yield and Nitrous Oxide Emissions following Swine Manure Application: A Meta‐Analysis (2019)"
+          href: https://doi.org/10.2134/ael2019.07.0024
+        - text: "Beating the Odds: Success Strategies for At-Risk Students (2018)"
+          href: Project/Mapworks poster.pdf
     - text: "Project"
-      icon: fab fa-r-project
+      icon: fas fa-book
       menu:
         - text: "Group-wise Image Registration: SyGN Experiment (PPT)"
           href: Project/Exploring SyGN algorithm.pdf
@@ -18,22 +29,6 @@ navbar:
           href: Project/Review on removing variability.pdf
         - text: "Study of COVID-19 Vaccine Hesitancy"
           href: Project/Note-VaccineHesitancy.html
-        - text: "Tree-based Model: Success Strategies for At-Risk Students (Poster)"
-          href: Project/Mapworks poster.pdf
-        - text: "Meta Analysis: Crop Yield and Nitrous Oxide Emissions following Swine Manure Application (Paper)"
-          href: https://doi.org/10.2134/ael2019.07.0024
-        - text: "Rolling Regression: Fama French Five Factor Asset Pricing Model on SP500"
-          href: Note/SP500_CAPM_ff5.html
-        - text: "Monte Carlo Simulation: Genshin Impact wishes"
-          href: Project/Simulation of Genshin Impact wishes.html
-        - text: "Network Analysis: Instagram API Documentation structure"
-          href: Project/Hyperlink-Analysis.html
-        - text: "Linear regression and cluster: EIO-LCA Analysis"
-          href: https://github.com/WeiquanLuo/LCA-PetFoodSupplyChain
-        - text: "R package: rivertopo"
-          href: https://github.com/WeiquanLuo/rivertopo
-        - text: "R package: stNet"
-          href: https://github.com/WeiquanLuo/stNet
         - text: "Engineering design: Balance"
           href: Note/Note-Balance.html
     - text: "Theory"
@@ -57,6 +52,8 @@ navbar:
           href: Note/Note-DeepLearningBatchSize.html
         - text: "Deep Learning: Loss function"
           href: Note/Note-DeepLearningLossFunction.html
+        - text: "Recommendation System: Matching algorithm"
+          href: Note/Note-RecSysMatching.html
         - text: "Machine Learning: Machine Learning Experiement"
           href: Note/Note-MLExperiment.html
         - text: "Machine Learning: Manifold Learning"
@@ -89,21 +86,14 @@ navbar:
           href: 
         - text: "Statistical Method: Meta-Analysis"
           href: 
-    - text: "Industrial Applications"
-      icon: fas fa-book
-      menu:
-        - text: "Recommendation System: Matching algorithm"
-          href: Note/Note-RecSysMatching.html
+        - text: "Controlled Experiment: A/B Testing"
+          href: Note/Note-ABnTesting.html
         - text: "Business Analysis: Research Framework"
           href: Note/Note-BusinessAnalysisResearchFramework.html
         - text: "Software architecture"
           href: Note/Note-SoftwareArchitecture.html
-        - text: "Google Project Management Career Program Archive"
-          href: https://github.com/WeiquanLuo/Google-Project-Management-Program-Archive
-        - text: "Controlled Experiment: A/B Testing"
-          href: Note/Note-ABnTesting.html
-    - text: "Coding"
-      icon: fas fa-book
+    - text: "Archive"
+      icon: fas fa-archive
       menu:
         - text: "Function: Parameter Passing (py)"
           href: Note/Note-ParameterPassing.html
@@ -141,12 +131,18 @@ navbar:
           href: Note/Note-magick.html
         - text: "Optimization (R)"
           href: Note/Note-Optimization.html
+        - text: "Google Project Management Career Program Archive"
+          href: https://github.com/WeiquanLuo/Google-Project-Management-Program-Archive
+        - text: "Rolling Regression: Fama French Five Factor Asset Pricing Model on SP500"
+          href: Note/SP500_CAPM_ff5.html
+        - text: "Monte Carlo Simulation: Genshin Impact wishes"
+          href: Project/Simulation of Genshin Impact wishes.html
         - text: "Decision Making: BCG Matrix (Tableau)"
           href: https://public.tableau.com/profile/weiquan.luo#!/vizhome/Supermarketdata_16103492580340/ProfitOverview
         - text: "Operational Efficiency: DuPont Analysis (Tableau)"
           href: https://public.tableau.com/profile/weiquan.luo#!/vizhome/DuPontAnalysisofCoca-ColaCo/DuPontAnalysis?publish=yes
     - text: "Résumé"
-      icon: fa fa-info
+      icon: fas fa-file-user
       href: Resume_WeiquanLuo.pdf
   right:
     - text: "Repo"
