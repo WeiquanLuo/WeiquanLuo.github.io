@@ -95,6 +95,8 @@ navbar:
     - text: "Archive"
       icon: fas fa-archive
       menu:
+        - text: "GNU Parallel (Linux)"
+          href: Note/Note-GNU_Parallel.html
         - text: "Function: Parameter Passing (py)"
           href: Note/Note-ParameterPassing.html
         - text: "Data Wrangling: Pandas (py)"
