@@ -33,42 +33,13 @@ html,body{
 
 <center>
 
-**Personal Profile**: 4+ years of researcher experience building complete data pipeline and applying statistical techniques and machine learning   
+**Profile**: 4+ years of researcher experience building complete data pipeline and applying statistical techniques and machine learning   
 models to solve real-life problems. Ability to develop innovative and practical solutions to complex problems without direct technical supervision. 
 
 **Long Term Goal**: To become a *Data Scientist* in delivering insight with analytical technique. 
 
 <br />
-<br />
-快乐不是在一起的充分必要条件
 
-现代科学发展离不开实证主义，那么就用常用的基于反证法的‘统计检测’进行讨论。
-先回顾一下统计检测的逻辑：给予一个待证的命题，
-
-在不能穷举的情况下，通过大量正例来证明一个命题是正确的是不实际的；
-相反，如果存在大于$\alpha$ (通常 $\geq5\%$)的反例来，则可以推翻此命题。
-
-<br />
-
-假设只要情侣中的一方认为，交往快乐，就可以让关系持续。
-那么把以下命题放入‘统计检测’的框架里：
-
-原假设，$H0$：交往快乐；
-备择假设，$H1$：交往不快乐；
-显着性水平，$\alpha$：交往中超过不快乐比例$\alpha$，终止感情。
-
-<br />
-
-现在是中这个$\alpha$是多少？
-
-即使吵吵闹闹的时间占了大多数, 不快乐比例$\alpha>50%$。
-很多人依然努力在一起，$\text{p-val}>\alpha>50$;
-
-
-
-
-
-<br />
 
 <br />
 
