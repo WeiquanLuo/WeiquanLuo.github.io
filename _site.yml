@@ -95,6 +95,8 @@ navbar:
     - text: "Archive"
       icon: fas fa-archive
       menu:
+        - text: "Linear Algebra: Numpy (py)"
+          href: Note/Note-LinearAlgebra.html
         - text: "GNU Parallel (Linux)"
           href: Note/Note-GNU_Parallel.html
         - text: "Function: Parameter Passing (py)"
