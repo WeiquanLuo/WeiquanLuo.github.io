@@ -33,14 +33,10 @@ html,body{
 
 <center>
 
-<<<<<<< HEAD
-**Profile**: 5+ years of research experience building complete data pipeline and applying statistical techniques and machine learning   
-=======
-**Profile**: 5+ years of researcher experience building complete data pipeline and applying statistical techniques and machine learning   
->>>>>>> eeb8a306b9a7d8d06d0049cdd20977765f38e05d
-models to solve real-life problems. Ability to develop innovative and practical solutions to complex problems without direct technical supervision. 
 
-**Long Term Goal**: To become a *Data Scientist* in delivering insight with analytical technique. 
+**Profile**: 5+ years of research experience building complete data pipeline and applying statistical techniques and machine learning models to solve real-life problems. Ability to develop innovative and practical solutions to complex problems without direct technical supervision. 
+
+**Goal**: To become a *Data Scientist* in delivering insight with analytical technique. 
 
 <br />
 
