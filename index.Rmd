@@ -34,9 +34,11 @@ html,body{
 <center>
 
 
-**Profile**: 5+ years of research experience building complete data pipeline and applying statistical techniques and machine learning models to solve real-life problems. Ability to develop innovative and practical solutions to complex problems without direct technical supervision. 
+5+ years of research experience in building complete data pipeline and applying statistical techniques and machine learning models to solve real-life problems. 
 
-**Goal**: To become a *Data Scientist* in delivering insight with analytical technique. 
+I can develop practical (often innovative) solutions to complex problems without direct technical supervision. 
+
+I am fascinated with Statistics. My goal is to become a *Data Scientist* 
 
 <br />
 
