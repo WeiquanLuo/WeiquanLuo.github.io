@@ -8,6 +8,8 @@ navbar:
     - text: "Publication"
       icon: fa-solid fa-link
       menu:
+        - text: "Evaluating Template Generation Methods for Spatially Normalizing Down Syndrome Brain Magnetic Resonance Images"
+          href: Project/AIC_2022_Luo_Poster_dsm_cml.pdf
         - text: "Linear regression and cluster: EIO-LCA Analysis"
           href: https://github.com/WeiquanLuo/LCA-PetFoodSupplyChain
         - text: "Label-Free Differentiation of Cancer and Non-Cancer Cells Based on Machine-Learning-Algorithm-Assisted Fast Raman Imaging (2022)"

@@ -1,7 +1,6 @@
 # dirNoteHtml.R
 setwd(dirname(rstudioapi::getSourceEditorContext()$path))
 rm(list=ls())
-dev.off()
 library(dplyr)
 library(purrr)
 
