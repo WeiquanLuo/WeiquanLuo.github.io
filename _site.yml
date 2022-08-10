@@ -96,7 +96,7 @@ navbar:
           href: Note/Note-BusinessAnalysisResearchFramework.html
         - text: "Software architecture"
           href: Note/Note-SoftwareArchitecture.html
-    - text: "Archive"
+    - text: "Miscellany"
       icon: fas fa-archive
       menu:
         - text: "Parallel Computing: ipyparallel (py)"
