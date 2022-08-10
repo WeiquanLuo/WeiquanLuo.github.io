@@ -99,6 +99,8 @@ navbar:
     - text: "Archive"
       icon: fas fa-archive
       menu:
+        - text: "Parallel Computing: ipyparallel (py)"
+          href: Note/Note-ParallelComputing.html
         - text: "Linear Algebra: Numpy (py)"
           href: Note/Note-LinearAlgebra.html
         - text: "GNU Parallel (Linux)"
