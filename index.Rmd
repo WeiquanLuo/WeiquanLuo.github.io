@@ -38,7 +38,7 @@ html,body{
 
 I can develop practical (often innovative) solutions to complex problems without direct technical supervision. 
 
-I am fascinated with Statistics. My goal is to become a *Data Scientist* 
+I am fascinated with Statistics. My goal is to become a *Data Scientist*.
 
 <br />
 

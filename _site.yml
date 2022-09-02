@@ -8,17 +8,19 @@ navbar:
     - text: "Publication"
       icon: fa-solid fa-link
       menu:
-        - text: "Evaluating Template Generation Methods for Spatially Normalizing Down Syndrome Brain Magnetic Resonance Images"
-          href: Project/AIC_2022_Luo_Poster_dsm_cml.pdf
+        - text: "Evaluating Template Generation Methods for Spatially Normalizing Down Syndrome Brain Magnetic Resonance Images (AIC 2022)"
+          href: Project/AIC_2022_Luo_Poster_dsm_cml.pdf 
+        - text: "Multi-site Data Harmonization with ComBat (2022)"
+          href: Project/Presentation_Multi-site Data Harmonization with ComBat.pdf
         - text: "Linear regression and cluster: EIO-LCA Analysis"
           href: https://github.com/WeiquanLuo/LCA-PetFoodSupplyChain
-        - text: "Label-Free Differentiation of Cancer and Non-Cancer Cells Based on Machine-Learning-Algorithm-Assisted Fast Raman Imaging (2022)"
+        - text: "Label-Free Differentiation of Cancer and Non-Cancer Cells Based on Machine-Learning-Algorithm-Assisted Fast Raman Imaging (Biosensors 2022)"
           href: https://doi.org/10.3390/bios12040250
-        - text: Multiscale Analysis Framework for the Iowa Water-Energy-Food Nexus
+        - text: "Multiscale Analysis Framework for the Iowa Water-Energy-Food Nexus (ProQuest 2021)"
           href: https://www.proquest.com/dissertations-theses/multiscale-analysis-framework-iowa-water-energy/docview/2553114937/se-2?accountid=10906
-        - text: "Crop Yield and Nitrous Oxide Emissions following Swine Manure Application: A Meta‐Analysis (2019)"
+        - text: "Crop Yield and Nitrous Oxide Emissions following Swine Manure Application: A Meta‐Analysis (A&EL 2019)"
           href: https://doi.org/10.2134/ael2019.07.0024
-        - text: "Beating the Odds: Success Strategies for At-Risk Students (2018)"
+        - text: "Beating the Odds: Success Strategies for At-Risk Students (ASABE 2018)"
           href: Project/Mapworks poster.pdf
     - text: "Project"
       icon: fas fa-book
