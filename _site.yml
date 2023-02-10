@@ -10,6 +10,8 @@ navbar:
       menu:
         - text: "Development and Evaluation of Image Preprocessing Pipelines for the Centiloid Method (HAI 2023)"
           href: Project/HAI2023_Luo_Poster_Final.pdf
+        - text: "Evaluating Template Generation Methods for Spatially Normalizing Down Syndrome Brain Magnetic Resonance Images (AIC 2022)"
+          href: Project/AIC2022_Luo_Poster_dsm_cml.pdf
         - text: "Multi-site Data Harmonization with ComBat (2022)"
           href: Project/Presentation_Multi-site Data Harmonization with ComBat.pdf
         - text: "Linear regression and cluster: EIO-LCA Analysis"
