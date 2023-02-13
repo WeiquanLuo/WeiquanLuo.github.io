@@ -151,7 +151,7 @@ navbar:
           href: Note/SP500_CAPM_ff5.html
         - text: "Monte Carlo Simulation: Genshin Impact wishes"
           href: Project/Simulation of Genshin Impact wishes.html
-        - text: "Reproducing GTM Partial colume correction algorithm"
+        - text: "Reproducing GTM Partial volume correction algorithm"
           href: Project/Algorithm_GTM_PVC.html
         - text: "Decision Making: BCG Matrix (Tableau)"
           href: https://public.tableau.com/profile/weiquan.luo#!/vizhome/Supermarketdata_16103492580340/ProfitOverview
