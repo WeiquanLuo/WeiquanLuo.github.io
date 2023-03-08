@@ -45,14 +45,14 @@ I am fascinated with Statistics. My goal is to become a *Data Scientist*.
 
 <br />
 
-Milestone (Mar 8/2023): Now I understand why graduate-level statistics start from mean model. 
+**Milestone (Mar 8/2023): Now I understand why graduate-level statistics start from mean model. **
 
-- The entire statistics world intend to answer one question: is there a different between groups?
-- Different statistical measure, (so-called statistics) lead to different method (so-called Statistical hypothesis testing) and standardized measure (so-called effect size)
-- By including co-variate, regression analysis by grouping (so-call random intercept) comes in.
-- When variance is not uniform along the line (so-called homoscedasticity assumption), then generalized regression comes in.
-- When the grouping has nested structure (usually cause by experiment design), interaction of the grouping and slope may exist (so-called random slope), then hierarchical Linear Regression and meta-analysis comes in.
-- So why starting from mean model. Because the regression is a so elegant framework for statistical communication. However, people won't understand why all are in regression language unless preceive the initial intention of statistics. 
+The entire statistics world intend to answer one question: is there a different between groups?
+Different statistical measure, (so-called **statistics**) lead to different method (so-called **hypothesis testing**) and standardized measure (so-called **effect size**)
+By including co-variate, **regression analysis** by grouping (so-call **random intercept**) comes in.
+When variance is not uniform along the line (so-called **homoscedasticity assumption**), then **generalized regression** comes in.
+When the grouping has nested structure (usually cause by **experiment design**), interaction of the grouping and slope may exist (so-called **random slope**), then **hierarchical Linear Regression** and **meta-analysis** comes in.
+So this is why starting from mean model. Because the regression is a so ***elegant framework*** for statistical communication. However, people won't understand why all are in regression language unless preceiving the initial intention of statistics. 
 
 
 
