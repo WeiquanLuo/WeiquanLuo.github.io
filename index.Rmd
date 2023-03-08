@@ -45,7 +45,7 @@ I am fascinated with Statistics. My goal is to become a *Data Scientist*.
 
 <br />
 
-**Milestone (Mar 8/2023): Now I understand why graduate-level statistics start from mean model. **
+**Milestone (Mar 8, 2023): Now I understand why graduate-level statistics start from mean model. **
 
 The entire statistics world intend to answer one question: ***is there a difference between groups?***
 
