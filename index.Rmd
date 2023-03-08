@@ -55,7 +55,7 @@ When variance is not uniform along the line (so-called violating **homoscedastic
 When the grouping has nested structure (usually cause by **experiment design**), interaction of the grouping and slope may exist (so-called **random slope**), then **hierarchical Linear Regression** and **meta-analysis** comes in.
 
 
-So the reason why starting from mean model is that the regression is a so ***elegant framework*** for statistical communication from the most bottom to top method. However, people won't understand why all are in regression language unless perceiving the initial intention of statistics. 
+So the reason why starting from mean model is that the regression is such an ***elegant framework*** for statistical communication from the most bottom to top method. However, people won't understand why all are in regression language unless perceiving the initial intention of statistics. 
 
 
 
