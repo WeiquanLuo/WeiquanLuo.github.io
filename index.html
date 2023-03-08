@@ -13,7 +13,7 @@
 
 <title>Weiquan Luo</title>
 
-<script src="site_libs/header-attrs-2.12/header-attrs.js"></script>
+<script src="site_libs/header-attrs-2.20/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/cosmo.min.css" rel="stylesheet" />
@@ -153,11 +153,15 @@ $(document).ready(function () {
     href = "index.html";
   var menuAnchor = $('a[href="' + href + '"]');
 
-  // mark it active
-  menuAnchor.tab('show');
-
-  // if it's got a parent navbar menu mark it active as well
-  menuAnchor.closest('li.dropdown').addClass('active');
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
 
   // Navbar adjustments
   var navHeight = $(".navbar").first().height() + 15;
@@ -186,8 +190,8 @@ $(document).ready(function () {
   border-radius: 4px;
 }
 
-.tabset-dropdown > .nav-tabs > li.active:before {
-  content: "";
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
   font-family: 'Glyphicons Halflings';
   display: inline-block;
   padding: 10px;
@@ -195,16 +199,9 @@ $(document).ready(function () {
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
-  content: "&#xe258;";
-  border: none;
-}
-
-.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
-  content: "";
+  content: "\e258";
   font-family: 'Glyphicons Halflings';
-  display: inline-block;
-  padding: 10px;
-  border-right: 1px solid #ddd;
+  border: none;
 }
 
 .tabset-dropdown > .nav-tabs > li.active {
@@ -565,6 +562,29 @@ real-world problems.</p>
 without direct technical supervision.</p>
 <p>I am fascinated with Statistics. My goal is to become a <em>Data
 Scientist</em>.</p>
+<p><br /></p>
+<p><br /></p>
+<p>Milestone (Mar 8/2023): Now I understand why graduate-level
+statistics start from mean model.</p>
+<ul>
+<li>The entire statistics world intend to answer one question: is there
+a different between groups?</li>
+<li>Different statistical measure, (so-called statistics) lead to
+different method (so-called Statistical hypothesis testing) and
+standardized measure (so-called effect size)</li>
+<li>By including co-variate, regression analysis by grouping (so-call
+random intercept) comes in.</li>
+<li>When variance is not uniform along the line (so-called
+homoscedasticity assumption), then generalized regression comes in.</li>
+<li>When the grouping has nested structure (usually cause by experiment
+design), interaction of the grouping and slope may exist (so-called
+random slope), then hierarchical Linear Regression and meta-analysis
+comes in.</li>
+<li>So why starting from mean model. Because the regression is a so
+elegant framework for statistical communication. However, people won’t
+understand why all are in regression language unless preceive the
+initial intention of statistics.</li>
+</ul>
 <p><br /></p>
 <p><br /></p>
 <p><strong>Starring</strong> the <a
