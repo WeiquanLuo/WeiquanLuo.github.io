@@ -560,32 +560,59 @@ and applying statistical techniques and machine learning models to solve
 real-world problems.</p>
 <p>I develop innovative and practical solutions to complex problems
 without direct technical supervision.</p>
-<p>I am fascinated with Statistics. My goal is to become a <em>Data
-Scientist</em>.</p>
+<p>And I am fascinated by Statistics.</p>
 <p><br /></p>
 <p><br /></p>
 <p><strong>Milestone (Mar 8, 2023): Now I understand why graduate-level
 statistics start from mean model. </strong></p>
 <p>The entire statistics world intend to answer one question:
-<strong><em>is there a difference between groups?</em></strong></p>
-<p>Different measures, (so-called <strong>statistics</strong>) lead to
-different methods (so-called <strong>hypothesis testing</strong>) and
-standardized measures (so-called <strong>effect size</strong>). By
-including moderating variables (so-called <strong>co-variate</strong>),
-<strong>regression analysis</strong> by grouping (so-call <strong>random
-intercept</strong>) comes in. When variance is not uniform along the
-lines (so-called violating <strong>homoscedasticity
-assumption</strong>), then <strong>generalized linear
-regression</strong> comes in. When the grouping has nested structure
-(usually caused by <strong>experiment design</strong>), interaction of
-the grouping and slope may exist (so-called <strong>random
-slope</strong>), then <strong>hierarchical Linear Regression</strong>
-and <strong>meta-analysis</strong> comes in.</p>
-<p>So the reason why starting from mean model is that the regression is
-such an <strong><em>elegant framework</em></strong> for statistical
-communication from the most bottom to top method. However, people won’t
-understand why all are in regression language unless perceiving the
-initial intention of statistics.</p>
+<strong><em>how is the difference between groups</em></strong>? The
+questions setup (<strong>Hypothesis</strong>) lead to methods
+(<strong>hypothesis testing</strong>) and standardized measures
+(<strong>effect size</strong>) and probability measures
+(<strong>statistics</strong>):</p>
+<ul>
+<li><strong>t-test</strong> for two-group comparison; <strong>Analysis
+of Variance (ANOVA)</strong> for n-groups comparison; <strong>Analysis
+of covariance (ANCOVA)</strong> for inclusion of moderating variables
+(<strong>covariates</strong>) into ANOVA.</li>
+<li>When each sample is defined more than one ways
+(<strong>factor</strong>), <strong>one-way</strong> ANOVA/ANCOVA is
+complicated to be <strong>factorial</strong> ANOVA/ANCOVA to depicts the
+interaction between the multiple moderating variables on the dependent
+variable.</li>
+</ul>
+<p><br /> Since the data have nested structure, all above methods can be
+reformatted as <strong>Hierarchical Linear Model (HLM)</strong>:</p>
+<ul>
+<li>When only level-2 summary is available, the HLM is simplified into
+<strong>Meta-Analysis</strong>, which focus on comparing only
+group-specific effect (<strong>Random factor/intercept</strong>).</li>
+<li>When only level-1 data is available, the HLM is simplified into
+<strong>linear regression </strong>, which focus on level-1 moderating
+effect (<strong>fixed slope</strong>) and overall effect. (<strong>fixed
+factor/intercept</strong>).</li>
+<li>When all level data is available, the HLM is defined as
+<strong>Liner Mixed-Effect Regression (LMER)</strong> or
+<strong>Mega-Analysis</strong>, which depict linear relation between
+level-1 moderating variables and the response variable with conditioning
+on higher-level moderating variables (<strong>random slope</strong> and
+<strong>random intercept/factor</strong>). It also defines the
+interaction between moderating variables of different levels
+(<strong>cross-level interaction</strong>).</li>
+</ul>
+<p>Finally, all above liner models follow the three assumptions:
+linearity, normality, and homoscedasticity. Violation of
+homoscedasticity can be adapted by generalizing the distribution of
+residual from normal distribution to other distributions, so-called
+<strong>Generalized Linear Model (GLM)</strong>.</p>
+<p><br /></p>
+<p>Answering the very beginning question, why mean model. Because the
+regression model is such an <strong><em>elegant framework</em></strong>
+for statistical communication from the most bottom to top method. And
+mean model is the simplest one. However, people won’t understand why all
+teaching are in regression language unless perceiving the connection of
+regression model to all the others.</p>
 <p><br /></p>
 <p><br /></p>
 <p><strong>Starring</strong> the <a
