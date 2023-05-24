@@ -88,12 +88,10 @@ navbar:
           href: Note/Note-LinearRegression.html
         - text: "Statistical Method: Design of Experiment"
           href: Note/Note-ExperimentDesign.html
+        - text: "Statistical Method: Power Analysis"
+          href: Note/Note-PowerAnalysis.html
         - text: "Graphical Model: Social network analysis"
           href: Note/Note-igraph.html
-        - text: "Statistical Method: Time Series Analysis"
-          href: 
-        - text: "Statistical Method: Meta-Analysis"
-          href: 
         - text: "Controlled Experiment: A/B Testing"
           href: Note/Note-ABnTesting.html
         - text: "Business Analysis: Research Framework"
