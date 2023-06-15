@@ -90,6 +90,8 @@ navbar:
           href: Note/Note-ExperimentDesign.html
         - text: "Statistical Method: Power Analysis"
           href: Note/Note-PowerAnalysis.html
+        - text: "Statistical Method: Moment Generating Function"
+          href: Note/Note-MGF.html
         - text: "Graphical Model: Social network analysis"
           href: Note/Note-igraph.html
         - text: "Controlled Experiment: A/B Testing"
