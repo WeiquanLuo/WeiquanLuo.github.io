@@ -33,22 +33,10 @@ html,body{
 
 <center>
 
-
-5+ years of research experience in building complete data pipeline and applying statistical techniques and machine learning models to solve real-world problems. 
-
-I develop innovative and practical solutions to complex problems without direct technical supervision. 
-
-And I am fascinated by Statistics.
-
-<br />
-
 笑意人生 就好
 
 <br />
 
-**Starring** the [repo](https://github.com/WeiquanLuo/WeiquanLuo.github.io) if you find this tiny website useful, thanks~
-
-Contact me at weiquan.luo1221@gmail.com or find my latest projects on GitHub.
 </center>
 
 
