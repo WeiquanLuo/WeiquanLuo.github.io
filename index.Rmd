@@ -42,33 +42,7 @@ And I am fascinated by Statistics.
 
 <br />
 
-
-<br />
-
-**Milestone (Mar 8, 2023): Now I understand why graduate-level statistics start from mean model. **
-
-The entire statistics world intend to answer one question: ***how is the difference between groups***? The questions setup (**Hypothesis**) lead to methods (**hypothesis testing**) and standardized measures (**effect size**) and probability measures (**statistics**):
-
-- **t-test** for two-group comparison; **Analysis of Variance (ANOVA)** for n-groups comparison; **Analysis of covariance (ANCOVA)** for inclusion of moderating variables (**covariates**) into ANOVA. 
-- When each sample is defined more than one ways (**factor**), **one-way** ANOVA/ANCOVA is complicated to be **factorial** ANOVA/ANCOVA to depicts the interaction between the multiple moderating variables on the dependent variable.
-
-<br />
-Since the data have nested structure, all above methods can be reformatted as **Hierarchical Linear Model (HLM)**:
-
-- When only level-2 summary is available, the HLM is simplified into **Meta-Analysis**, which focus on comparing only group-specific effect (**Random factor/intercept**). 
-- When only level-1 data is available, the HLM is simplified into **linear regression **, which focus on level-1 moderating effect (**fixed slope**) and overall effect. (**fixed factor/intercept**).
-- When all level data is available, the HLM is defined as **Liner Mixed-Effect Regression (LMER)** or **Mega-Analysis**, which depict linear relation between level-1 moderating variables and the response variable with conditioning on higher-level moderating variables (**random slope** and **random intercept/factor**). It also defines the interaction between moderating variables of different levels (**cross-level interaction**).
-
-Finally, all above liner models follow the three assumptions: linearity, normality, and homoscedasticity. Violation of homoscedasticity can be adapted by generalizing the distribution of residual from normal distribution to other distributions, so-called **Generalized Linear Model (GLM)**. 
-
-<br />
-
-Answering the very beginning question, why mean model. Because the regression model is such an ***elegant framework*** for statistical communication from the most bottom to top method. And mean model is the simplest one. However, people won't understand why all teaching are in regression language unless perceiving the connection of regression model to all the others.
-
-
-
-<br />
-
+笑意人生 就好
 
 <br />
 
